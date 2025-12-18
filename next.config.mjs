@@ -8,8 +8,7 @@ const withMDX = mdx({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export", // For GitHub Pages static hosting
-  basePath: "/td-portfolio", // GitHub Pages subdirectory
-  assetPrefix: "/td-portfolio/", // For assets
+  // No basePath needed for custom domain (trinadhdivvela.com)
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: ["next-mdx-remote"],
   images: {
