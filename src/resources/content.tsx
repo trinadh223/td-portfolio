@@ -2,20 +2,21 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Trinadh",
+  lastName: "Divvela",
+  name: `Trinadh Divvela`,
+  role: "Product Manager",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "trinadh.divvela@gmail.com",
+  location: "Bengaluru, India", // Display location
+  timezone: "Asia/Kolkata", // For time display in header
+  languages: ["English", "Hindi", "Telugu"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: <>Updates on product management insights and projects</>,
 };
 
 const social: Social = [
@@ -23,28 +24,40 @@ const social: Social = [
   // Import new icons in /once-ui/icons.ts
   // Set essentials: true for links you want to show on the about page
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system",
+    name: "LinkedIn",
+    icon: "linkedin",
+    link: "https://www.linkedin.com/in/trinadhdivvela",
     essential: true,
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    name: "GitHub",
+    icon: "github",
+    link: "https://github.com/trinadh223",
+    essential: true,
+  },
+  {
+    name: "X",
+    icon: "x",
+    link: "https://x.com/trinadh_divvela",
+    essential: true,
+  },
+  {
+    name: "Medium",
+    icon: "medium",
+    link: "https://medium.com/@trinadhdivvela",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://instagram.com/trinadh_223",
     essential: false,
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
+    name: "Facebook",
+    icon: "facebook",
+    link: "https://facebook.com/trinadhdivvela",
+    essential: false,
   },
   {
     name: "Email",
@@ -60,24 +73,24 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Hi, I am Trinadh Divvela</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Product Manager & Entrepreneur</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          IIT Kharagpur
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work",
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
-</>
+      Entrepreneur building AI-native products. Passionate about creating innovative, user-centric solutions through data-driven decision making.
+    </>
   ),
 };
 
@@ -85,7 +98,7 @@ const about: About = {
   path: "/about",
   label: "About",
   title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  description: `Meet ${person.name}, ${person.role} from Hyderabad`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -95,16 +108,18 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/trinadh08/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Product Manager and Entrepreneur with a passion for building AI-native products.
+        Currently exploring the intersection of AI and user experience to create innovative solutions.
+        <br /><br />
+        By day, I serve as Senior Technical Manager at ICICI Bank. My journey includes leading cross-functional teams, executing large-scale digital transformations,
+        and driving significant improvements in user engagement and conversion rates.
       </>
     ),
   },
@@ -113,41 +128,81 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "ICICI Bank",
+        timeframe: "May 2022 - Present",
+        role: "Senior Technical Manager (M2)",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Owned and executed the migration of the primary website of ICICI Bank to Adobe Experience Manager (CMS) as per planned timelines.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Led a cross-functional team to enhance ICICI Bank's primary website for non-logged-in users, utilizing Adobe Analytics and Adobe Target to achieve a 20% increase in user engagement.
+          </>,
+          <>
+            Spearheaded the transition to the Martech project, taking ownership of onboarding 6 channels and integrating the Adobe suite of solutions, resulting in a 6% increase in conversion rates through enhanced tracking, retargeting and real-time customer profiling.
+          </>,
+          <>
+            Developed and orchestrated comprehensive strategic and tactical plans for 18 months ensuring seamless execution through effective cross-functional team collaboration.
+          </>,
+          <>
+            Responsible for overseeing governance and security throughout the entire digital transformation project.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Upraised",
+        timeframe: "Nov 2022 - Mar 2023",
+        role: "Product Management Fellow",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Recognized by senior product leaders from Mastercard, CRED, PayTM, and Myntra in the cohort.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Authored industry-grade PRDs, vetted and approved by a Senior PM from CRED.
+          </>,
+          <>
+            Evaluated Rapido's switching issue, securing a top 2 ranking in the entire cohort of more than 80 people.
+          </>,
+          <>
+            Conducted in-depth product teardowns and observations during a rigorous 16-week program.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Persistent Systems",
+        timeframe: "Oct 2020 - May 2022",
+        role: "Software Engineer",
+        achievements: [
+          <>
+            Integrated external systems with Salesforce via Mule for customer credit history assessment.
+          </>,
+          <>
+            Developed a consent management site for Business and Personal Banking products through SMS and email links.
+          </>,
+          <>
+            Created a Global Search feature for cross-sell functionality, enabling case searches by Loan Number and Name.
+          </>,
+          <>
+            Implemented Aadhar Vault Integration to mask Aadhar Numbers using Salesforce's Outbound Messages SOAP API.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Perpule",
+        timeframe: "May 2019 - Jul 2019",
+        role: "Software Development Intern",
+        achievements: [
+          <>
+            Engineered a payment microservice using Rest APIs, Spring Boot, Cloud SQL, and Google App Engine.
+          </>,
+          <>
+            Designed and developed BO and DAO classes for Amazon Pay, Paytm Auto Debit, PhonePe, and Paytm UPI.
+          </>,
+          <>
+            Enhanced payment methods, refactored code, and optimized components, reducing transaction latency by 83%.
           </>,
         ],
         images: [],
@@ -156,77 +211,74 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Indian Institute of Technology, Kharagpur",
+        description: <>B.Tech, Civil Engineering (2016 - 2020)</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Sri Chaitanya Educational Institutions, Gudavalli",
+        description: <>Intermediate Education - MPC (2014 - 2016)</>,
+      },
+      {
+        name: "DR. K.K.R's Gowtham Concept School, Tenali",
+        description: <>Secondary School Education (2013 - 2014)</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Skills",
     skills: [
       {
-        title: "Figma",
+        title: "Product Skills",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Core product management competencies for building user-centric solutions.</>
         ),
         tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
+          { name: "Market Research" },
+          { name: "Structured Thinking" },
+          { name: "Stakeholder Management" },
+          { name: "Data-driven Decision Making" },
+          { name: "Ownership" },
+          { name: "Project Management" },
+          { name: "User Journeys" },
+          { name: "Product Roadmap" },
+          { name: "Root Cause Analysis" },
+          { name: "First Principle Thinking" },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        title: "Next.js",
+        title: "Technical Skills",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Technologies and platforms I work with.</>
         ),
         tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
+          { name: "Adobe Analytics" },
+          { name: "Adobe Target" },
+          { name: "API Integration" },
+          { name: "SQL" },
+          { name: "Salesforce" },
+          { name: "Adobe Experience Manager" },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+        images: [],
+      },
+      {
+        title: "Tools",
+        description: (
+          <>Design and productivity tools in my workflow.</>
+        ),
+        tags: [
+          { name: "Figma", icon: "figma" },
+          { name: "Whimsical" },
+          { name: "Miro" },
+          { name: "JIRA" },
+          { name: "Google Analytics" },
+          { name: "Notion" },
         ],
+        images: [],
       },
     ],
   },
@@ -235,7 +287,7 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about product and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -245,8 +297,8 @@ const work: Work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
+  description: `Product case studies and projects by ${person.name}`,
+  // Create new project pages by adding a new .mdx file to app/work/projects
   // All projects will be listed on the /home and /work routes
 };
 
