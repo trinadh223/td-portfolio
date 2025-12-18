@@ -1,0 +1,113 @@
+1:"$Sreact.fragment"
+2:I[778454,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Row"]
+3:I[273323,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Column"]
+4:I[479520,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],""]
+5:I[624379,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"SmartLink"]
+6:I[145250,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Avatar"]
+7:I[398382,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Media"]
+8:I[811052,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"HeadingLink"]
+9:I[597784,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"CodeBlock"]
+a:I[362844,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"InlineCode"]
+12:I[448588,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ShareSection"]
+13:I[311451,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Line"]
+14:I[89532,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Grid"]
+15:I[814360,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"default"]
+18:I[988654,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ScrollToHash"]
+19:I[605649,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"HeadingNav"]
+1a:I[897367,["/td-portfolio/_next/static/chunks/d96012bcfc98706a.js","/td-portfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+1b:"$Sreact.suspense"
+0:{"buildId":"6w3I0TXPfsRExtXbpfqtD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/styling","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://trinadhdivvela.com/blog/styling\",\"sameAs\":[],\"headline\":\"Styling your portfolio\",\"description\":\"Magic Portfolio's styling is based on Once UI's customization through data-attributes.\",\"image\":\"https://trinadhdivvela.com/images/gallery/horizontal-3.jpg\",\"datePublished\":\"2025-04-21\",\"dateModified\":\"2025-04-21\",\"author\":{\"@type\":\"Person\",\"name\":\"Trinadh Divvela\",\"url\":\"https://trinadhdivvela.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://trinadhdivvela.com/images/avatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 21, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Styling your portfolio"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Trinadh Divvela"}]]}]}],["$","$L7",null,{"src":"/images/gallery/horizontal-3.jpg","alt":"Styling your portfolio","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"global-style","children":"Global style"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Magic Portfolio's styling is based on Once UI's customization through data-attributes. You can generate a custom color palette for brand, accent and neutral colors on ",["$","a",null,{"href":"https://once-ui.com/customize","target":"_blank","rel":"noopener noreferrer","children":"Once UI"}]," where you'll find instructions on how to apply it."]}],"\n",["$","$L9",null,{"marginBottom":"16","codes":[{"code":"theme:       'dark',         // dark | light\nneutral:     'gray',         // sand | gray | slate\nbrand:       'blue',         // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan\naccent:      'indigo',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan\nsolid:       'contrast',     // color | contrast\nsolidStyle:  'flat',         // flat | plastic\nborder:      'playful',      // rounded | playful | conservative\nsurface:     'translucent',  // filled | translucent\ntransition:  'all',          // all | micro | macro\nscaling:     '100',          // 90 | 95 | 100 | 105 | 110","language":"tsx","label":"src/app/resources/config.js"}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"background-effect","children":"Background effect"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["There's a pre-configured background in ",["$","$La",null,{"children":"layout.tsx"}]," that you can modify in the config file. Set graphic elements such as gradient, dots, lines, and grid and configure their appearance."]}],"\n","$Lb"]}],"$Lc","$Ld","$Le"]}]}],"$Lf"]}],["$L10"],"$L11"]}],"loading":null,"isPartial":false}
+b:["$","$L9",null,{"codeHeight":24,"marginBottom":"16","codes":[{"code":"const effects = {\n  mask: {\n    cursor: false,\n    x: 50,\n    y: 0,\n    radius: 100\n  },\n  gradient: {\n    display: true,\n    x: 50,\n    y: -25,\n    width: 100,\n    height: 100,\n    tilt: 0,\n    colorStart: 'accent-background-strong',\n    colorEnd: 'static-transparent',\n    opacity: 50\n  },\n  dots: {\n    display: true,\n    size: 2,\n    color: 'brand-on-background-weak',\n    opacity: 20\n  },\n  lines: {\n    display: false,\n    color: 'neutral-alpha-weak',\n    opacity: 100\n  },\n  grid: {\n    display: false,\n    color: 'neutral-alpha-weak',\n    opacity: 100,\n    width: 'var(--static-space-32)',\n    height: 'var(--static-space-32)'\n  }\n}","language":"tsx","label":"src/app/resources/config.js"}]}]
+c:["$","$L12",null,{"title":"Styling your portfolio","url":"https://trinadhdivvela.com/blog/styling"}]
+16:T43f,
+## About
+
+Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.
+
+## License
+
+Magic Portfolio is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can only use it for personal purposes, and you must attribute the original work. The attribution is added in the footer by default, but you can place it in any other, visible part of your site.
+
+Subscribe to the [Once UI Pro plan](https://once-ui.com/pricing) to extend the license to [Dopler CC](https://once-ui.com/products/magic-portfolio).
+
+## Quick start
+
+Clone the git repository:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the necessary dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start the local development server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />17:T49d,
+## Enable or disable pages
+
+Magic Portfolio's `RouteGuard` component takes care of conditionally rendering pages based on the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/gallery` page is not accessible and is not displayed in the navigation.
+
+## Add new pages
+
+When creating a new page, it needs to be added to the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+    '/music': true,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/music` page is accessible. Users will be able to navigate to it after adding it to the navigation menu in the `components/Header.tsx` file.d:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L13",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L14",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L15","quick-start",{"post":{"metadata":{"title":"Quick start with Magic Portfolio","subtitle":"A comprehensive guide to setting up your professional portfolio in minutes","publishedAt":"2025-04-23","summary":"Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.","image":"/images/gallery/horizontal-1.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"quick-start","content":"$16"},"thumbnail":true,"direction":"column"}],["$","$L15","pages",{"post":{"metadata":{"title":"Enable or disable pages for your portfolio","subtitle":"","publishedAt":"2025-04-22","summary":"Magic Portfolio's RouteGuard component takes care of conditionally rendering pages based on your settings.","image":"/images/gallery/horizontal-2.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"pages","content":"$17"},"thumbnail":true,"direction":"column"}]]}]]}]
+e:["$","$L18",null,{}]
+f:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L19",null,{"fitHeight":true}]}]
+10:["$","script","script-0",{"src":"/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js","async":true}]
+11:["$","$L1a",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]
+1c:null

@@ -1,0 +1,132 @@
+1:"$Sreact.fragment"
+2:I[273323,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[624379,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
+5:I[778454,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
+6:I[571045,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
+7:I[691722,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Button"]
+8:I[398382,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Media"]
+9:I[811052,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
+a:I[436122,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
+b:I[626935,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
+1c:I[311451,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
+1d:I[474855,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+20:I[988654,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
+21:I[897367,["/td-portfolio/_next/static/chunks/d96012bcfc98706a.js","/td-portfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+22:"$Sreact.suspense"
+0:{"buildId":"6w3I0TXPfsRExtXbpfqtD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/amazon-packaging-recycle","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://trinadhdivvela.com/work/amazon-packaging-recycle\",\"sameAs\":[],\"headline\":\"Amazon Packaging Recycle Case Study\",\"description\":\"Detailed case study analyzing Amazon's package recycling initiative with feature analysis, product design, and GTM strategy recommendations.\",\"image\":\"https://trinadhdivvela.com/api/og/generate?title=Amazon%20Packaging%20Recycle%20Case%20Study\",\"datePublished\":\"2023-01-10\",\"dateModified\":\"2023-01-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Trinadh Divvela\",\"url\":\"https://trinadhdivvela.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://trinadhdivvela.com/images/avatar.jpg\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"January 10, 2023"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Amazon Packaging Recycle Case Study"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[{"src":"/images/avatar.jpg"}],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[["$","span","0",{"children":[false,["$","$L4",null,{"href":"https://www.linkedin.com/in/trinadhdivvela","children":"Trinadh Divvela"}]]}]]}]]}]}],["$","$L5",null,{"marginBottom":"24","horizontal":"center","children":["$","$L7",null,{"href":"https://docs.google.com/document/d/1j3DEABD1Zg0JcAEsdFKsvfVX8OWipkXjTVRLzyJfxOI/edit?usp=sharing","variant":"secondary","size":"m","prefixIcon":"arrowUpRightFromSquare","children":"View Full Project"}]}],["$","$L8",null,{"priority":true,"aspectRatio":"16 / 9","radius":"m","alt":"image","src":"/images/projects/amazonpackage.jpeg"}],["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"overview","children":"Overview"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A comprehensive case study exploring Amazon's packaging recycling initiative, analyzing the current state, proposing feature enhancements, and developing a go-to-market strategy for sustainable packaging solutions."}],"\n",["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"problem-statement","children":"Problem Statement"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"E-commerce packaging waste has become a significant environmental concern. This case study examines how Amazon can enhance its packaging recycling program to increase participation and environmental impact."}],"\n",["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"research-and-analysis","children":"Research & Analysis"}],"\n",["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"current-state-assessment","children":"Current State Assessment"}],"\n",["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Analyzed existing Amazon packaging initiatives"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Studied customer awareness and participation rates"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Identified barriers to recycling adoption"}],"\n"]}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18"]}],"$L19","$L1a"]}],null,"$L1b"]}],"loading":null,"isPartial":false}
+c:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"competitive-landscape","children":"Competitive Landscape"}]
+d:["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Benchmarked against sustainability initiatives from competitors"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Identified best practices in sustainable packaging"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Analyzed regulatory requirements and trends"}],"\n"]}]
+e:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"proposed-solutions","children":"Proposed Solutions"}]
+f:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"feature-recommendations","children":"Feature Recommendations"}]
+10:["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Easy Return & Recycle"}],": Simplified process for returning packaging"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Incentive Program"}],": Reward system for sustainable behavior"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Educational Content"}],": In-app guidance on recycling practices"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Packaging Tracking"}],": Transparency on packaging lifecycle"]}],"\n"]}]
+11:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"ux-design-considerations","children":"UX Design Considerations"}]
+12:["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Wireframes for recycling flow integration"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"User journey optimization"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Accessibility considerations"}],"\n"]}]
+13:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"gtm-strategy","children":"GTM Strategy"}]
+14:["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Phased rollout plan"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Marketing and awareness campaigns"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Partnership opportunities with recycling facilities"}],"\n"]}]
+15:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"impact-estimation","children":"Impact Estimation"}]
+16:["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Projected reduction in packaging waste"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Customer engagement improvements"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Brand perception enhancement"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Cost-benefit analysis"}],"\n"]}]
+17:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"tags","children":"Tags"}]
+18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Feature Analysis, Product Design, UX, GTM Strategy, Wireframing"}]
+1e:T520,
+## Overview
+
+An industry-grade Product Requirements Document developed during the Upraised Product Management Fellowship, focusing on improving user engagement metrics for Disney+ Hotstar.
+
+## Objective
+
+Increase daily active users (DAU) and session duration on the Disney+ Hotstar platform through strategic feature enhancements and UX improvements.
+
+## PRD Components
+
+### Problem Definition
+- Identified key engagement challenges through data analysis
+- Mapped user journey pain points
+- Defined success metrics and KPIs
+
+### User Research
+- Created detailed user personas
+- Conducted competitive analysis
+- Analyzed user behavior patterns
+
+### Proposed Solutions
+- Personalization engine improvements
+- Social watching features
+- Content discovery enhancements
+- Notification optimization strategies
+
+### Success Metrics
+- Target DAU increase
+- Session duration improvements
+- Content completion rates
+- User satisfaction scores
+
+## Technical Considerations
+
+- Integration with existing recommendation systems
+- Scalability requirements for peak loads
+- Cross-platform consistency
+- Performance optimization
+
+## Validation
+
+This PRD was vetted and approved by a **Senior PM from CRED**, demonstrating industry-standard quality and thoroughness.
+
+## Tags
+
+Product Strategy, User Engagement, PRD, Key Metrics
+1f:T5a2,
+## Overview
+
+A detailed feature breakdown and analysis of WhatsApp's Status feature, identifying improvement opportunities and proposing UX enhancements to increase engagement and user satisfaction.
+
+## Feature Analysis
+
+### Current State
+- Examined the existing Status feature functionality
+- Analyzed user interaction patterns
+- Identified usage metrics and engagement levels
+
+### User Pain Points
+1. **Discoverability**: Status updates often go unnoticed
+2. **Content Creation**: Limited editing and creative tools
+3. **Privacy Controls**: Need for more granular sharing options
+4. **Engagement**: Lack of interactive elements
+
+## Competitive Analysis
+
+Compared WhatsApp Status with:
+- Instagram Stories
+- Facebook Stories
+- Snapchat Stories
+- Telegram Stories
+
+Identified feature gaps and competitive advantages.
+
+## Improvement Recommendations
+
+### UX Enhancements
+- **Enhanced Editor**: More creative tools for status creation
+- **Smart Notifications**: AI-powered notification timing
+- **Interactive Elements**: Polls, reactions, and Q&A features
+- **Analytics**: View insights for content creators
+
+### Design Considerations
+- Maintaining WhatsApp's simplicity
+- Privacy-first approach
+- Performance optimization for low-bandwidth users
+- Cross-platform consistency
+
+## Impact Analysis
+
+- Projected engagement improvements
+- User satisfaction enhancements
+- Retention impact estimation
+
+## Tags
+
+Feature Analysis, Product Design, UX
+19:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L1c",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L1d","disney-hotstar-prd",{"priority":true,"href":"/work/disney-hotstar-prd","images":["/images/projects/disneyhotstar.jpeg"],"title":"Disney+ Hotstar PRD","description":"Comprehensive Product Requirements Document for increasing user engagement metrics on Disney+ Hotstar platform.","content":"$1e","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://docs.google.com/document/d/1yDtXkEadGnA8nEAGgb_pTWskOyb0u6fqU8953Wn3dN8/edit?usp=sharing"}],["$","$L1d","whatsapp-status-feature",{"priority":true,"href":"/work/whatsapp-status-feature","images":["/images/projects/whatsappimage.jpeg"],"title":"WhatsApp Status Feature Analysis","description":"Detailed feature breakdown and improvement analysis for WhatsApp's Status feature, exploring UX enhancements and product design opportunities.","content":"$1f","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://www.canva.com/design/DAFWJJjyQKQ/ScdFI3EfdV9r8uDEivG6WA/edit?utm_content=DAFWJJjyQKQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}]]}]]}]
+1a:["$","$L20",null,{}]
+1b:["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+23:null

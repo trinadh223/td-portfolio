@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[778454,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Row"]
+3:I[273323,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Column"]
+4:I[479520,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],""]
+5:I[624379,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"SmartLink"]
+6:I[145250,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Avatar"]
+7:I[448588,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ShareSection"]
+8:I[311451,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Line"]
+9:I[89532,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Grid"]
+a:I[814360,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"default"]
+12:I[988654,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ScrollToHash"]
+13:I[605649,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"HeadingNav"]
+14:I[897367,["/td-portfolio/_next/static/chunks/d96012bcfc98706a.js","/td-portfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+b:T43f,
+## About
+
+Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.
+
+## License
+
+Magic Portfolio is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can only use it for personal purposes, and you must attribute the original work. The attribution is added in the footer by default, but you can place it in any other, visible part of your site.
+
+Subscribe to the [Once UI Pro plan](https://once-ui.com/pricing) to extend the license to [Dopler CC](https://once-ui.com/products/magic-portfolio).
+
+## Quick start
+
+Clone the git repository:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the necessary dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start the local development server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />0:{"buildId":"6w3I0TXPfsRExtXbpfqtD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/localization","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://trinadhdivvela.com/blog/localization\",\"sameAs\":[],\"headline\":\"Localized version of Magic Portfolio\",\"description\":\"Magic Portfolio was localized by François Hernandez.\",\"image\":\"https://trinadhdivvela.com/api/og/generate?title=Localized%20version%20of%20Magic%20Portfolio\",\"datePublished\":\"2025-04-15\",\"dateModified\":\"2025-04-15\",\"author\":{\"@type\":\"Person\",\"name\":\"Trinadh Divvela\",\"url\":\"https://trinadhdivvela.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://trinadhdivvela.com/images/avatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 15, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Localized version of Magic Portfolio"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Trinadh Divvela"}]]}]}],"",["$","$L3",null,{"as":"article","maxWidth":"s","children":["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["In the latest version of Magic Portfolio, localization is no longer supported. However, the localized version created by ",["$","a",null,{"href":"https://github.com/francoishernandez","target":"_blank","rel":"noopener noreferrer","children":"François Hernandez"}]," is still available as a ",["$","a",null,{"href":"https://github.com/once-ui-system/magic-portfolio/tree/localization-(Once-UI-0.4.2)","target":"_blank","rel":"noopener noreferrer","children":"separate branch"}],". This branch will not receive further updates."]}]}],["$","$L7",null,{"title":"Localized version of Magic Portfolio","url":"https://trinadhdivvela.com/blog/localization"}],["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L8",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L9",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$La","quick-start",{"post":{"metadata":{"title":"Quick start with Magic Portfolio","subtitle":"A comprehensive guide to setting up your professional portfolio in minutes","publishedAt":"2025-04-23","summary":"Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.","image":"/images/gallery/horizontal-1.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"quick-start","content":"$b"},"thumbnail":true,"direction":"column"}],"$Lc"]}]]}],"$Ld"]}]}],"$Le"]}],["$Lf"],"$L10"]}],"loading":null,"isPartial":false}
+11:T49d,
+## Enable or disable pages
+
+Magic Portfolio's `RouteGuard` component takes care of conditionally rendering pages based on the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/gallery` page is not accessible and is not displayed in the navigation.
+
+## Add new pages
+
+When creating a new page, it needs to be added to the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+    '/music': true,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/music` page is accessible. Users will be able to navigate to it after adding it to the navigation menu in the `components/Header.tsx` file.c:["$","$La","pages",{"post":{"metadata":{"title":"Enable or disable pages for your portfolio","subtitle":"","publishedAt":"2025-04-22","summary":"Magic Portfolio's RouteGuard component takes care of conditionally rendering pages based on your settings.","image":"/images/gallery/horizontal-2.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"pages","content":"$11"},"thumbnail":true,"direction":"column"}]
+d:["$","$L12",null,{}]
+e:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L13",null,{"fitHeight":true}]}]
+f:["$","script","script-0",{"src":"/td-portfolio/_next/static/chunks/9297aeb96eeb50db.js","async":true}]
+10:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+16:null

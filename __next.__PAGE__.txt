@@ -1,0 +1,295 @@
+1:"$Sreact.fragment"
+2:I[273323,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Column"]
+3:I[479520,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],""]
+4:I[621971,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"RevealFx"]
+5:I[117899,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Badge"]
+6:I[778454,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Row"]
+7:I[311451,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Line"]
+8:I[691722,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Button"]
+9:I[145250,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Avatar"]
+a:I[474855,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"ProjectCard"]
+11:I[89532,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Grid"]
+12:I[814360,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"default"]
+19:I[303847,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js","/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Mailchimp"]
+1a:I[897367,["/td-portfolio/_next/static/chunks/d96012bcfc98706a.js","/td-portfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+1b:"$Sreact.suspense"
+b:T68e,
+## Overview
+
+A comprehensive product teardown analysis of Rapido's user switching problem, focusing on understanding why users switch between ride-hailing platforms and identifying opportunities to improve retention.
+
+## Problem Statement
+
+Rapido was experiencing significant user churn with customers frequently switching to competitor platforms. This analysis aimed to identify the root causes and propose actionable solutions.
+
+## Approach
+
+- **User Research**: Conducted in-depth research to understand user behavior patterns and pain points
+- **Competitive Analysis**: Analyzed competitor offerings and their value propositions
+- **Data Analysis**: Examined user journey data to identify drop-off points
+- **Root Cause Analysis**: Applied first principle thinking to understand core issues
+
+## Key Insights
+
+1. **Price Sensitivity**: Users showed high sensitivity to price fluctuations during peak hours
+2. **Availability Issues**: Inconsistent bike availability in certain areas led to platform switching
+3. **Experience Gaps**: Identified specific UX friction points in the booking flow
+4. **Trust Factors**: Safety and reliability concerns influenced platform choice
+
+## Recommendations
+
+Proposed targeted solutions addressing:
+- Dynamic pricing transparency
+- Supply-side optimization strategies
+- UX improvements for faster booking
+- Trust-building features and safety enhancements
+
+## Outcome
+
+This analysis secured a **top 2 ranking** among 80+ participants in the Upraised Product Management cohort, receiving recognition from senior product leaders at Mastercard, CRED, PayTM, and Myntra.
+
+## Tags
+
+Product Analysis, UX Research, User Retention, Product Teardown
+0:{"buildId":"6w3I0TXPfsRExtXbpfqtD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://trinadhdivvela.com/\",\"sameAs\":[],\"headline\":\"Trinadh Divvela's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Product Manager\",\"image\":\"https://trinadhdivvela.com/api/og/generate?title=Trinadh%20Divvela's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Trinadh Divvela\",\"url\":\"https://trinadhdivvela.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://trinadhdivvela.com/images/avatar.jpg\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work","children":["$","$L6",null,{"paddingY":"2","children":["$","$L6",null,{"gap":"12","vertical":"center","children":[["$","strong",null,{"className":"ml-4","children":"Product Manager & Entrepreneur"}]," ",["$","$L7",null,{"background":"brand-alpha-strong","vert":true,"height":"20"}],["$","span",null,{"className":"brand-on-background-medium mr-4","style":{},"children":"IIT Kharagpur"}]]}]}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Hi, I am Trinadh Divvela"}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"Entrepreneur building AI-native products. Passionate about creating innovative, user-centric solutions through data-driven decision making."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.jpg","size":"m"}],"About – Trinadh Divvela"]}]}]}]]}]}],["$","$L4",null,{"translateY":"16","delay":0.6,"children":["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$La","rapido-switching-problem",{"priority":true,"href":"/work/rapido-switching-problem","images":["/images/projects/rapido-image.jpeg"],"title":"Rapido Switching Problem","description":"Product teardown analysis focusing on user experience and retention for Rapido's switching issue, securing a top 2 ranking in the cohort.","content":"$b","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://www.canva.com/design/DAFdSav_J_s/nmE95Ebp7cZPIIFiXtmGig/edit?utm_content=DAFdSav_J_s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}]]}]}],"$Lc","$Ld","$Le"]}],["$Lf"],"$L10"]}],"loading":null,"isPartial":false}
+13:T43f,
+## About
+
+Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.
+
+## License
+
+Magic Portfolio is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can only use it for personal purposes, and you must attribute the original work. The attribution is added in the footer by default, but you can place it in any other, visible part of your site.
+
+Subscribe to the [Once UI Pro plan](https://once-ui.com/pricing) to extend the license to [Dopler CC](https://once-ui.com/products/magic-portfolio).
+
+## Quick start
+
+Clone the git repository:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the necessary dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start the local development server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />14:T49d,
+## Enable or disable pages
+
+Magic Portfolio's `RouteGuard` component takes care of conditionally rendering pages based on the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/gallery` page is not accessible and is not displayed in the navigation.
+
+## Add new pages
+
+When creating a new page, it needs to be added to the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+    '/music': true,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/music` page is accessible. Users will be able to navigate to it after adding it to the navigation menu in the `components/Header.tsx` file.c:["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L7",null,{"maxWidth":48}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest from the blog"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$L11",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L12","quick-start",{"post":{"metadata":{"title":"Quick start with Magic Portfolio","subtitle":"A comprehensive guide to setting up your professional portfolio in minutes","publishedAt":"2025-04-23","summary":"Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.","image":"/images/gallery/horizontal-1.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"quick-start","content":"$13"},"thumbnail":false}],["$","$L12","pages",{"post":{"metadata":{"title":"Enable or disable pages for your portfolio","subtitle":"","publishedAt":"2025-04-22","summary":"Magic Portfolio's RouteGuard component takes care of conditionally rendering pages based on your settings.","image":"/images/gallery/horizontal-2.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"pages","content":"$14"},"thumbnail":false}]]}]}]]}],"$L15"]}]
+16:T520,
+## Overview
+
+An industry-grade Product Requirements Document developed during the Upraised Product Management Fellowship, focusing on improving user engagement metrics for Disney+ Hotstar.
+
+## Objective
+
+Increase daily active users (DAU) and session duration on the Disney+ Hotstar platform through strategic feature enhancements and UX improvements.
+
+## PRD Components
+
+### Problem Definition
+- Identified key engagement challenges through data analysis
+- Mapped user journey pain points
+- Defined success metrics and KPIs
+
+### User Research
+- Created detailed user personas
+- Conducted competitive analysis
+- Analyzed user behavior patterns
+
+### Proposed Solutions
+- Personalization engine improvements
+- Social watching features
+- Content discovery enhancements
+- Notification optimization strategies
+
+### Success Metrics
+- Target DAU increase
+- Session duration improvements
+- Content completion rates
+- User satisfaction scores
+
+## Technical Considerations
+
+- Integration with existing recommendation systems
+- Scalability requirements for peak loads
+- Cross-platform consistency
+- Performance optimization
+
+## Validation
+
+This PRD was vetted and approved by a **Senior PM from CRED**, demonstrating industry-standard quality and thoroughness.
+
+## Tags
+
+Product Strategy, User Engagement, PRD, Key Metrics
+17:T67e,
+## Overview
+
+A comprehensive case study exploring Amazon's packaging recycling initiative, analyzing the current state, proposing feature enhancements, and developing a go-to-market strategy for sustainable packaging solutions.
+
+## Problem Statement
+
+E-commerce packaging waste has become a significant environmental concern. This case study examines how Amazon can enhance its packaging recycling program to increase participation and environmental impact.
+
+## Research & Analysis
+
+### Current State Assessment
+- Analyzed existing Amazon packaging initiatives
+- Studied customer awareness and participation rates
+- Identified barriers to recycling adoption
+
+### Competitive Landscape
+- Benchmarked against sustainability initiatives from competitors
+- Identified best practices in sustainable packaging
+- Analyzed regulatory requirements and trends
+
+## Proposed Solutions
+
+### Feature Recommendations
+1. **Easy Return & Recycle**: Simplified process for returning packaging
+2. **Incentive Program**: Reward system for sustainable behavior
+3. **Educational Content**: In-app guidance on recycling practices
+4. **Packaging Tracking**: Transparency on packaging lifecycle
+
+### UX Design Considerations
+- Wireframes for recycling flow integration
+- User journey optimization
+- Accessibility considerations
+
+### GTM Strategy
+- Phased rollout plan
+- Marketing and awareness campaigns
+- Partnership opportunities with recycling facilities
+
+## Impact Estimation
+
+- Projected reduction in packaging waste
+- Customer engagement improvements
+- Brand perception enhancement
+- Cost-benefit analysis
+
+## Tags
+
+Feature Analysis, Product Design, UX, GTM Strategy, Wireframing
+d:["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$La","disney-hotstar-prd",{"priority":true,"href":"/work/disney-hotstar-prd","images":["/images/projects/disneyhotstar.jpeg"],"title":"Disney+ Hotstar PRD","description":"Comprehensive Product Requirements Document for increasing user engagement metrics on Disney+ Hotstar platform.","content":"$16","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://docs.google.com/document/d/1yDtXkEadGnA8nEAGgb_pTWskOyb0u6fqU8953Wn3dN8/edit?usp=sharing"}],["$","$La","amazon-packaging-recycle",{"priority":true,"href":"/work/amazon-packaging-recycle","images":["/images/projects/amazonpackage.jpeg"],"title":"Amazon Packaging Recycle Case Study","description":"Detailed case study analyzing Amazon's package recycling initiative with feature analysis, product design, and GTM strategy recommendations.","content":"$17","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://docs.google.com/document/d/1j3DEABD1Zg0JcAEsdFKsvfVX8OWipkXjTVRLzyJfxOI/edit?usp=sharing"}],"$L18"]}]
+e:["$","$L19",null,{}]
+f:["$","script","script-0",{"src":"/td-portfolio/_next/static/chunks/77c1917bfce7ffb0.js","async":true}]
+10:["$","$L1a",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]
+15:["$","$L6",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L7",null,{"maxWidth":48}]}]
+1d:T5a2,
+## Overview
+
+A detailed feature breakdown and analysis of WhatsApp's Status feature, identifying improvement opportunities and proposing UX enhancements to increase engagement and user satisfaction.
+
+## Feature Analysis
+
+### Current State
+- Examined the existing Status feature functionality
+- Analyzed user interaction patterns
+- Identified usage metrics and engagement levels
+
+### User Pain Points
+1. **Discoverability**: Status updates often go unnoticed
+2. **Content Creation**: Limited editing and creative tools
+3. **Privacy Controls**: Need for more granular sharing options
+4. **Engagement**: Lack of interactive elements
+
+## Competitive Analysis
+
+Compared WhatsApp Status with:
+- Instagram Stories
+- Facebook Stories
+- Snapchat Stories
+- Telegram Stories
+
+Identified feature gaps and competitive advantages.
+
+## Improvement Recommendations
+
+### UX Enhancements
+- **Enhanced Editor**: More creative tools for status creation
+- **Smart Notifications**: AI-powered notification timing
+- **Interactive Elements**: Polls, reactions, and Q&A features
+- **Analytics**: View insights for content creators
+
+### Design Considerations
+- Maintaining WhatsApp's simplicity
+- Privacy-first approach
+- Performance optimization for low-bandwidth users
+- Cross-platform consistency
+
+## Impact Analysis
+
+- Projected engagement improvements
+- User satisfaction enhancements
+- Retention impact estimation
+
+## Tags
+
+Feature Analysis, Product Design, UX
+18:["$","$La","whatsapp-status-feature",{"priority":false,"href":"/work/whatsapp-status-feature","images":["/images/projects/whatsappimage.jpeg"],"title":"WhatsApp Status Feature Analysis","description":"Detailed feature breakdown and improvement analysis for WhatsApp's Status feature, exploring UX enhancements and product design opportunities.","content":"$1d","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://www.canva.com/design/DAFWJJjyQKQ/ScdFI3EfdV9r8uDEivG6WA/edit?utm_content=DAFWJJjyQKQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}]
+1c:null

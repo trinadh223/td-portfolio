@@ -1,0 +1,196 @@
+1:"$Sreact.fragment"
+2:I[273323,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[474855,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+c:I[897367,["/td-portfolio/_next/static/chunks/d96012bcfc98706a.js","/td-portfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+5:T68e,
+## Overview
+
+A comprehensive product teardown analysis of Rapido's user switching problem, focusing on understanding why users switch between ride-hailing platforms and identifying opportunities to improve retention.
+
+## Problem Statement
+
+Rapido was experiencing significant user churn with customers frequently switching to competitor platforms. This analysis aimed to identify the root causes and propose actionable solutions.
+
+## Approach
+
+- **User Research**: Conducted in-depth research to understand user behavior patterns and pain points
+- **Competitive Analysis**: Analyzed competitor offerings and their value propositions
+- **Data Analysis**: Examined user journey data to identify drop-off points
+- **Root Cause Analysis**: Applied first principle thinking to understand core issues
+
+## Key Insights
+
+1. **Price Sensitivity**: Users showed high sensitivity to price fluctuations during peak hours
+2. **Availability Issues**: Inconsistent bike availability in certain areas led to platform switching
+3. **Experience Gaps**: Identified specific UX friction points in the booking flow
+4. **Trust Factors**: Safety and reliability concerns influenced platform choice
+
+## Recommendations
+
+Proposed targeted solutions addressing:
+- Dynamic pricing transparency
+- Supply-side optimization strategies
+- UX improvements for faster booking
+- Trust-building features and safety enhancements
+
+## Outcome
+
+This analysis secured a **top 2 ranking** among 80+ participants in the Upraised Product Management cohort, receiving recognition from senior product leaders at Mastercard, CRED, PayTM, and Myntra.
+
+## Tags
+
+Product Analysis, UX Research, User Retention, Product Teardown
+6:T520,
+## Overview
+
+An industry-grade Product Requirements Document developed during the Upraised Product Management Fellowship, focusing on improving user engagement metrics for Disney+ Hotstar.
+
+## Objective
+
+Increase daily active users (DAU) and session duration on the Disney+ Hotstar platform through strategic feature enhancements and UX improvements.
+
+## PRD Components
+
+### Problem Definition
+- Identified key engagement challenges through data analysis
+- Mapped user journey pain points
+- Defined success metrics and KPIs
+
+### User Research
+- Created detailed user personas
+- Conducted competitive analysis
+- Analyzed user behavior patterns
+
+### Proposed Solutions
+- Personalization engine improvements
+- Social watching features
+- Content discovery enhancements
+- Notification optimization strategies
+
+### Success Metrics
+- Target DAU increase
+- Session duration improvements
+- Content completion rates
+- User satisfaction scores
+
+## Technical Considerations
+
+- Integration with existing recommendation systems
+- Scalability requirements for peak loads
+- Cross-platform consistency
+- Performance optimization
+
+## Validation
+
+This PRD was vetted and approved by a **Senior PM from CRED**, demonstrating industry-standard quality and thoroughness.
+
+## Tags
+
+Product Strategy, User Engagement, PRD, Key Metrics
+0:{"buildId":"6w3I0TXPfsRExtXbpfqtD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://trinadhdivvela.com/work\",\"sameAs\":[],\"headline\":\"Projects – Trinadh Divvela\",\"description\":\"Product case studies and projects by Trinadh Divvela\",\"image\":\"https://trinadhdivvela.com/api/og/generate?title=Projects%20%E2%80%93%20Trinadh%20Divvela\",\"author\":{\"@type\":\"Person\",\"name\":\"Trinadh Divvela\",\"url\":\"https://trinadhdivvela.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://trinadhdivvela.com/images/avatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Trinadh Divvela"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","rapido-switching-problem",{"priority":true,"href":"/work/rapido-switching-problem","images":["/images/projects/rapido-image.jpeg"],"title":"Rapido Switching Problem","description":"Product teardown analysis focusing on user experience and retention for Rapido's switching issue, securing a top 2 ranking in the cohort.","content":"$5","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://www.canva.com/design/DAFdSav_J_s/nmE95Ebp7cZPIIFiXtmGig/edit?utm_content=DAFdSav_J_s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}],["$","$L4","disney-hotstar-prd",{"priority":true,"href":"/work/disney-hotstar-prd","images":["/images/projects/disneyhotstar.jpeg"],"title":"Disney+ Hotstar PRD","description":"Comprehensive Product Requirements Document for increasing user engagement metrics on Disney+ Hotstar platform.","content":"$6","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://docs.google.com/document/d/1yDtXkEadGnA8nEAGgb_pTWskOyb0u6fqU8953Wn3dN8/edit?usp=sharing"}],"$L7","$L8"]}]]}],null,"$L9"]}],"loading":null,"isPartial":false}
+a:T67e,
+## Overview
+
+A comprehensive case study exploring Amazon's packaging recycling initiative, analyzing the current state, proposing feature enhancements, and developing a go-to-market strategy for sustainable packaging solutions.
+
+## Problem Statement
+
+E-commerce packaging waste has become a significant environmental concern. This case study examines how Amazon can enhance its packaging recycling program to increase participation and environmental impact.
+
+## Research & Analysis
+
+### Current State Assessment
+- Analyzed existing Amazon packaging initiatives
+- Studied customer awareness and participation rates
+- Identified barriers to recycling adoption
+
+### Competitive Landscape
+- Benchmarked against sustainability initiatives from competitors
+- Identified best practices in sustainable packaging
+- Analyzed regulatory requirements and trends
+
+## Proposed Solutions
+
+### Feature Recommendations
+1. **Easy Return & Recycle**: Simplified process for returning packaging
+2. **Incentive Program**: Reward system for sustainable behavior
+3. **Educational Content**: In-app guidance on recycling practices
+4. **Packaging Tracking**: Transparency on packaging lifecycle
+
+### UX Design Considerations
+- Wireframes for recycling flow integration
+- User journey optimization
+- Accessibility considerations
+
+### GTM Strategy
+- Phased rollout plan
+- Marketing and awareness campaigns
+- Partnership opportunities with recycling facilities
+
+## Impact Estimation
+
+- Projected reduction in packaging waste
+- Customer engagement improvements
+- Brand perception enhancement
+- Cost-benefit analysis
+
+## Tags
+
+Feature Analysis, Product Design, UX, GTM Strategy, Wireframing
+7:["$","$L4","amazon-packaging-recycle",{"priority":false,"href":"/work/amazon-packaging-recycle","images":["/images/projects/amazonpackage.jpeg"],"title":"Amazon Packaging Recycle Case Study","description":"Detailed case study analyzing Amazon's package recycling initiative with feature analysis, product design, and GTM strategy recommendations.","content":"$a","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://docs.google.com/document/d/1j3DEABD1Zg0JcAEsdFKsvfVX8OWipkXjTVRLzyJfxOI/edit?usp=sharing"}]
+b:T5a2,
+## Overview
+
+A detailed feature breakdown and analysis of WhatsApp's Status feature, identifying improvement opportunities and proposing UX enhancements to increase engagement and user satisfaction.
+
+## Feature Analysis
+
+### Current State
+- Examined the existing Status feature functionality
+- Analyzed user interaction patterns
+- Identified usage metrics and engagement levels
+
+### User Pain Points
+1. **Discoverability**: Status updates often go unnoticed
+2. **Content Creation**: Limited editing and creative tools
+3. **Privacy Controls**: Need for more granular sharing options
+4. **Engagement**: Lack of interactive elements
+
+## Competitive Analysis
+
+Compared WhatsApp Status with:
+- Instagram Stories
+- Facebook Stories
+- Snapchat Stories
+- Telegram Stories
+
+Identified feature gaps and competitive advantages.
+
+## Improvement Recommendations
+
+### UX Enhancements
+- **Enhanced Editor**: More creative tools for status creation
+- **Smart Notifications**: AI-powered notification timing
+- **Interactive Elements**: Polls, reactions, and Q&A features
+- **Analytics**: View insights for content creators
+
+### Design Considerations
+- Maintaining WhatsApp's simplicity
+- Privacy-first approach
+- Performance optimization for low-bandwidth users
+- Cross-platform consistency
+
+## Impact Analysis
+
+- Projected engagement improvements
+- User satisfaction enhancements
+- Retention impact estimation
+
+## Tags
+
+Feature Analysis, Product Design, UX
+8:["$","$L4","whatsapp-status-feature",{"priority":false,"href":"/work/whatsapp-status-feature","images":["/images/projects/whatsappimage.jpeg"],"title":"WhatsApp Status Feature Analysis","description":"Detailed feature breakdown and improvement analysis for WhatsApp's Status feature, exploring UX enhancements and product design opportunities.","content":"$b","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://www.canva.com/design/DAFWJJjyQKQ/ScdFI3EfdV9r8uDEivG6WA/edit?utm_content=DAFWJJjyQKQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}]
+9:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

@@ -1,0 +1,131 @@
+1:"$Sreact.fragment"
+2:I[273323,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[624379,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
+5:I[778454,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
+6:I[571045,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
+7:I[691722,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Button"]
+8:I[398382,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Media"]
+9:I[811052,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
+a:I[436122,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
+b:I[626935,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
+19:I[311451,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
+1a:I[474855,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+1d:I[988654,["/td-portfolio/_next/static/chunks/d157cf8f67df59bd.js","/td-portfolio/_next/static/chunks/8b17704a1cf39ac2.js","/td-portfolio/_next/static/chunks/3dfa6b28cca3d293.js","/td-portfolio/_next/static/chunks/05adfb8eb23fb67a.js","/td-portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
+1e:I[897367,["/td-portfolio/_next/static/chunks/d96012bcfc98706a.js","/td-portfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+0:{"buildId":"6w3I0TXPfsRExtXbpfqtD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/rapido-switching-problem","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://trinadhdivvela.com/work/rapido-switching-problem\",\"sameAs\":[],\"headline\":\"Rapido Switching Problem\",\"description\":\"Product teardown analysis focusing on user experience and retention for Rapido's switching issue, securing a top 2 ranking in the cohort.\",\"image\":\"https://trinadhdivvela.com/api/og/generate?title=Rapido%20Switching%20Problem\",\"datePublished\":\"2023-03-15\",\"dateModified\":\"2023-03-15\",\"author\":{\"@type\":\"Person\",\"name\":\"Trinadh Divvela\",\"url\":\"https://trinadhdivvela.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://trinadhdivvela.com/images/avatar.jpg\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 15, 2023"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Rapido Switching Problem"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[{"src":"/images/avatar.jpg"}],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[["$","span","0",{"children":[false,["$","$L4",null,{"href":"https://www.linkedin.com/in/trinadhdivvela","children":"Trinadh Divvela"}]]}]]}]]}]}],["$","$L5",null,{"marginBottom":"24","horizontal":"center","children":["$","$L7",null,{"href":"https://www.canva.com/design/DAFdSav_J_s/nmE95Ebp7cZPIIFiXtmGig/edit?utm_content=DAFdSav_J_s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton","variant":"secondary","size":"m","prefixIcon":"arrowUpRightFromSquare","children":"View Full Project"}]}],["$","$L8",null,{"priority":true,"aspectRatio":"16 / 9","radius":"m","alt":"image","src":"/images/projects/rapido-image.jpeg"}],["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"overview","children":"Overview"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A comprehensive product teardown analysis of Rapido's user switching problem, focusing on understanding why users switch between ride-hailing platforms and identifying opportunities to improve retention."}],"\n",["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"problem-statement","children":"Problem Statement"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Rapido was experiencing significant user churn with customers frequently switching to competitor platforms. This analysis aimed to identify the root causes and propose actionable solutions."}],"\n",["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"approach","children":"Approach"}],"\n",["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"User Research"}],": Conducted in-depth research to understand user behavior patterns and pain points"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Competitive Analysis"}],": Analyzed competitor offerings and their value propositions"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Data Analysis"}],": Examined user journey data to identify drop-off points"]}],"\n","$Lc","\n"]}],"\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15"]}],"$L16","$L17"]}],null,"$L18"]}],"loading":null,"isPartial":false}
+c:["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Root Cause Analysis"}],": Applied first principle thinking to understand core issues"]}]
+d:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"key-insights","children":"Key Insights"}]
+e:["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Price Sensitivity"}],": Users showed high sensitivity to price fluctuations during peak hours"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Availability Issues"}],": Inconsistent bike availability in certain areas led to platform switching"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Experience Gaps"}],": Identified specific UX friction points in the booking flow"]}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Trust Factors"}],": Safety and reliability concerns influenced platform choice"]}],"\n"]}]
+f:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"recommendations","children":"Recommendations"}]
+10:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Proposed targeted solutions addressing:"}]
+11:["$","$La",null,{"children":["\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Dynamic pricing transparency"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Supply-side optimization strategies"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"UX improvements for faster booking"}],"\n",["$","$Lb",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Trust-building features and safety enhancements"}],"\n"]}]
+12:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"outcome","children":"Outcome"}]
+13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["This analysis secured a ",["$","strong",null,{"children":"top 2 ranking"}]," among 80+ participants in the Upraised Product Management cohort, receiving recognition from senior product leaders at Mastercard, CRED, PayTM, and Myntra."]}]
+14:["$","$L9",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"tags","children":"Tags"}]
+15:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Product Analysis, UX Research, User Retention, Product Teardown"}]
+1b:T67e,
+## Overview
+
+A comprehensive case study exploring Amazon's packaging recycling initiative, analyzing the current state, proposing feature enhancements, and developing a go-to-market strategy for sustainable packaging solutions.
+
+## Problem Statement
+
+E-commerce packaging waste has become a significant environmental concern. This case study examines how Amazon can enhance its packaging recycling program to increase participation and environmental impact.
+
+## Research & Analysis
+
+### Current State Assessment
+- Analyzed existing Amazon packaging initiatives
+- Studied customer awareness and participation rates
+- Identified barriers to recycling adoption
+
+### Competitive Landscape
+- Benchmarked against sustainability initiatives from competitors
+- Identified best practices in sustainable packaging
+- Analyzed regulatory requirements and trends
+
+## Proposed Solutions
+
+### Feature Recommendations
+1. **Easy Return & Recycle**: Simplified process for returning packaging
+2. **Incentive Program**: Reward system for sustainable behavior
+3. **Educational Content**: In-app guidance on recycling practices
+4. **Packaging Tracking**: Transparency on packaging lifecycle
+
+### UX Design Considerations
+- Wireframes for recycling flow integration
+- User journey optimization
+- Accessibility considerations
+
+### GTM Strategy
+- Phased rollout plan
+- Marketing and awareness campaigns
+- Partnership opportunities with recycling facilities
+
+## Impact Estimation
+
+- Projected reduction in packaging waste
+- Customer engagement improvements
+- Brand perception enhancement
+- Cost-benefit analysis
+
+## Tags
+
+Feature Analysis, Product Design, UX, GTM Strategy, Wireframing
+1c:T5a2,
+## Overview
+
+A detailed feature breakdown and analysis of WhatsApp's Status feature, identifying improvement opportunities and proposing UX enhancements to increase engagement and user satisfaction.
+
+## Feature Analysis
+
+### Current State
+- Examined the existing Status feature functionality
+- Analyzed user interaction patterns
+- Identified usage metrics and engagement levels
+
+### User Pain Points
+1. **Discoverability**: Status updates often go unnoticed
+2. **Content Creation**: Limited editing and creative tools
+3. **Privacy Controls**: Need for more granular sharing options
+4. **Engagement**: Lack of interactive elements
+
+## Competitive Analysis
+
+Compared WhatsApp Status with:
+- Instagram Stories
+- Facebook Stories
+- Snapchat Stories
+- Telegram Stories
+
+Identified feature gaps and competitive advantages.
+
+## Improvement Recommendations
+
+### UX Enhancements
+- **Enhanced Editor**: More creative tools for status creation
+- **Smart Notifications**: AI-powered notification timing
+- **Interactive Elements**: Polls, reactions, and Q&A features
+- **Analytics**: View insights for content creators
+
+### Design Considerations
+- Maintaining WhatsApp's simplicity
+- Privacy-first approach
+- Performance optimization for low-bandwidth users
+- Cross-platform consistency
+
+## Impact Analysis
+
+- Projected engagement improvements
+- User satisfaction enhancements
+- Retention impact estimation
+
+## Tags
+
+Feature Analysis, Product Design, UX
+16:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L19",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L1a","amazon-packaging-recycle",{"priority":true,"href":"/work/amazon-packaging-recycle","images":["/images/projects/amazonpackage.jpeg"],"title":"Amazon Packaging Recycle Case Study","description":"Detailed case study analyzing Amazon's package recycling initiative with feature analysis, product design, and GTM strategy recommendations.","content":"$1b","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://docs.google.com/document/d/1j3DEABD1Zg0JcAEsdFKsvfVX8OWipkXjTVRLzyJfxOI/edit?usp=sharing"}],["$","$L1a","whatsapp-status-feature",{"priority":true,"href":"/work/whatsapp-status-feature","images":["/images/projects/whatsappimage.jpeg"],"title":"WhatsApp Status Feature Analysis","description":"Detailed feature breakdown and improvement analysis for WhatsApp's Status feature, exploring UX enhancements and product design opportunities.","content":"$1c","avatars":[{"src":"/images/avatar.jpg"}],"link":"https://www.canva.com/design/DAFWJJjyQKQ/ScdFI3EfdV9r8uDEivG6WA/edit?utm_content=DAFWJJjyQKQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}]]}]]}]
+17:["$","$L1d",null,{}]
+18:["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+20:null
