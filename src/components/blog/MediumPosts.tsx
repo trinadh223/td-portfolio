@@ -26,14 +26,40 @@ export function MediumPosts({ limit = 6, columns = "2" }: MediumPostsProps) {
         async function fetchPosts() {
             try {
                 setIsLoading(true);
-                const response = await fetch("/api/medium");
+                const mediumRssFeed = "https://medium.com/feed/@trinadhdivvela";
+                const rssToJsonApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(mediumRssFeed)}`;
+
+                const response = await fetch(rssToJsonApi);
                 const data = await response.json();
 
-                if (data.error) {
-                    throw new Error(data.error);
+                if (data.status !== "ok" || !data.items) {
+                    throw new Error("Failed to fetch Medium feed");
                 }
 
-                setPosts(data.posts.slice(0, limit));
+                const parsedPosts: MediumPost[] = data.items.map((item: any) => {
+                    const imgSrcMatch = item.description.match(/<img[^>]+src=["']?([^"'>\s]+)["']?/i);
+                    const extractedImageSrc = imgSrcMatch ? imgSrcMatch[1] : null;
+                    const excerpt = item.description
+                        .replace(/<[^>]*>/g, "")
+                        .split(".")
+                        .slice(0, 2)
+                        .join(".") + ".";
+
+                    return {
+                        title: item.title,
+                        excerpt: excerpt.substring(0, 200) + (excerpt.length > 200 ? "..." : ""),
+                        image: extractedImageSrc || item.thumbnail || "",
+                        link: item.link,
+                        pubDate: new Date(item.pubDate).toLocaleDateString("en-US", {
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                        }),
+                        tags: item.categories || [],
+                    };
+                });
+
+                setPosts(parsedPosts.slice(0, limit));
             } catch (err) {
                 setError("Failed to load Medium posts");
                 console.error(err);
