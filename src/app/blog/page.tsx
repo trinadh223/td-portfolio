@@ -1,8 +1,7 @@
 import { Column, Heading, Meta, Schema, Text } from "@once-ui-system/core";
-import { Mailchimp } from "@/components";
-import { Posts } from "@/components/blog/Posts";
 import { MediumPosts } from "@/components/blog/MediumPosts";
-import { baseURL, blog, person, newsletter } from "@/resources";
+import { baseURL, blog, person } from "@/resources";
+
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -48,16 +47,7 @@ export default function Blog() {
         <MediumPosts limit={6} columns="2" />
       </Column>
 
-      {/* Static Blog Posts Section */}
-      <Column fillWidth flex={1} gap="32">
-        <Heading as="h2" variant="heading-strong-m" onBackground="neutral-weak">
-          Articles
-        </Heading>
-        <Posts range={[1, 1]} thumbnail />
-        <Posts range={[2, 3]} columns="2" thumbnail direction="column" />
-        {newsletter.display && <Mailchimp marginBottom="l" />}
-        <Posts range={[4]} columns="2" />
-      </Column>
+
     </Column>
   );
 }

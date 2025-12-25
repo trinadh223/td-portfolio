@@ -2,6 +2,8 @@ export { Header } from "@/components/Header";
 export { Footer } from "@/components/Footer";
 export { Mailchimp } from "@/components/Mailchimp";
 export { ProjectCard } from "@/components/ProjectCard";
+export { ProjectCardCompact } from "@/components/work/ProjectCardCompact";
+export { ProjectsCompact } from "@/components/work/ProjectsCompact";
 export { HeadingLink } from "@/components/HeadingLink";
 export { RouteGuard } from "@/components/RouteGuard";
 export { Providers } from "@/components/Providers";

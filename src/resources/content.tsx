@@ -89,14 +89,14 @@ const home: Home = {
   },
   subline: (
     <>
-      Entrepreneur building AI-native products. Passionate about creating innovative, user-centric solutions through data-driven decision making.
+      Building AI-native products. Passionate about creating innovative, user-centric solutions through data-driven decision making.
     </>
   ),
 };
 
 const about: About = {
   path: "/about",
-  label: "About",
+  label: "Experience",
   title: `About – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from Hyderabad`,
   tableOfContent: {
@@ -108,7 +108,7 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://calendly.com/trinadh08/30min",
+    link: "https://calendly.com/trinadhdivvela/30min-discussion",
   },
   intro: {
     display: true,
@@ -295,7 +295,7 @@ const blog: Blog = {
 
 const work: Work = {
   path: "/work",
-  label: "Work",
+  label: "Projects",
   title: `Projects – ${person.name}`,
   description: `Product case studies and projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/work/projects
