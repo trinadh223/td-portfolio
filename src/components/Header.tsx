@@ -169,7 +169,7 @@ export const Header = () => {
             </Flex>
             <ToggleButton
               prefixIcon="document"
-              href="https://drive.google.com/uc?export=download&id=1oy1Qx9SP7UByW61YflQ4-Y8wb9PZWsqe"
+              href="https://docs.google.com/document/d/17gxD23a6GjTwMNsQTqHoVxf302OhN3paYiTlUZmHSk4/export?format=pdf"
               label="CV"
             />
           </Flex>
