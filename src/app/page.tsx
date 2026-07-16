@@ -9,14 +9,12 @@ import {
   Row,
   Schema,
   Meta,
-  Grid,
-  Media,
   Tag,
   Icon,
   Line,
   SmartLink,
 } from "@once-ui-system/core";
-import { home, about, person, baseURL, work, blog, gallery } from "@/resources";
+import { home, about, person, baseURL, work, blog } from "@/resources";
 import { ProjectsCompact } from "@/components/work/ProjectsCompact";
 import { MediumPosts } from "@/components/blog/MediumPosts";
 
@@ -181,39 +179,6 @@ export default function Home() {
             </SmartLink>
           </Row>
           <MediumPosts limit={4} columns="2" />
-        </Column>
-      </RevealFx>
-
-      <Line />
-
-      {/* Gallery Section */}
-      <RevealFx translateY="12" delay={0.8}>
-        <Column fillWidth gap="24">
-          <Row fillWidth horizontal="between" vertical="center">
-            <Heading as="h2" variant="display-strong-s">
-              Gallery
-            </Heading>
-            <SmartLink href={gallery.path}>
-              <Text variant="label-default-s" onBackground="brand-weak">
-                View all →
-              </Text>
-            </SmartLink>
-          </Row>
-          <Grid columns="3" s={{ columns: "2" }} gap="12" fillWidth>
-            {gallery.images.slice(0, 6).map((image, index) => (
-              <Media
-                key={index}
-                priority={index < 3}
-                sizes="(max-width: 560px) 50vw, 33vw"
-                radius="m"
-                aspectRatio={image.orientation === "horizontal" ? "16 / 9" : "3 / 4"}
-                src={image.src}
-                alt={image.alt}
-                border="neutral-alpha-weak"
-                enlarge
-              />
-            ))}
-          </Grid>
         </Column>
       </RevealFx>
     </Column>

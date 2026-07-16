@@ -1,11 +1,11 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import { About, Blog, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Trinadh",
   lastName: "Divvela",
   name: `Trinadh Divvela`,
-  role: "Product Manager",
+  role: "AI Product Manager & Builder",
   avatar: "/images/avatar.jpg",
   email: "trinadh.divvela@gmail.com",
   location: "Bengaluru, India", // Display location
@@ -16,7 +16,7 @@ const person: Person = {
 const newsletter: Newsletter = {
   display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>Updates on product management insights and projects</>,
+  description: <>Updates on AI product building and product management insights</>,
 };
 
 const social: Social = [
@@ -72,13 +72,13 @@ const home: Home = {
   image: "/images/og/home.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  description: `Portfolio website showcasing my work as an ${person.role}`,
   headline: <>Hi, I am Trinadh Divvela</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Product Manager & Entrepreneur</strong>{" "}
+        <strong className="ml-4">AI Product Manager & Co-Founder</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           IIT Kharagpur
@@ -89,7 +89,8 @@ const home: Home = {
   },
   subline: (
     <>
-      Building AI-native products. Passionate about creating innovative, user-centric solutions through data-driven decision making.
+      I build AI-native products end to end — from voice AI agents to execution
+      intelligence platforms powered by AI agents and automation.
     </>
   ),
 };
@@ -98,7 +99,7 @@ const about: About = {
   path: "/about",
   label: "Experience",
   title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from Hyderabad`,
+  description: `Meet ${person.name}, ${person.role} from Bengaluru`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -115,11 +116,15 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Product Manager and Entrepreneur with a passion for building AI-native products.
-        Currently exploring the intersection of AI and user experience to create innovative solutions.
-        <br /><br />
-        By day, I serve as Senior Technical Manager at ICICI Bank. My journey includes leading cross-functional teams, executing large-scale digital transformations,
-        and driving significant improvements in user engagement and conversion rates.
+        AI-focused Product Manager with 5+ years of experience spanning enterprise digital
+        transformation at ICICI Bank and hands-on AI product building. Shipped a voice AI
+        platform achieving sub-1.5s latency and 94% data extraction accuracy. Led multiple
+        cross-functional teams to deliver a bank-wide website migration on schedule, then
+        drove Martech integration resulting in a 6% conversion lift.
+        <br />
+        <br />
+        Most recently built an AI-native execution intelligence tool that gives engineering
+        teams real-time visibility into work progress. Graduated from IIT Kharagpur.
       </>
     ),
   },
@@ -128,24 +133,98 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "ICICI Bank",
-        timeframe: "May 2022 - Present",
-        role: "Senior Technical Manager (M2)",
+        company: "Omni AI",
+        timeframe: "Nov 2025 - Apr 2026",
+        role: "Co-Founder & Product Lead",
         achievements: [
           <>
-            Owned and executed the migration of the primary website of ICICI Bank to Adobe Experience Manager (CMS) as per planned timelines.
+            Built an AI-native execution intelligence platform giving engineering teams
+            real-time visibility into work progress without manual updates — owning product
+            strategy, technical architecture, and GTM planning.
           </>,
           <>
-            Led a cross-functional team to enhance ICICI Bank's primary website for non-logged-in users, utilizing Adobe Analytics and Adobe Target to achieve a 20% increase in user engagement.
+            Identified the core problem through 15+ user interviews with PMs and Tech Leads:
+            engineering teams spend 3-5 hrs/week compiling status updates manually. Designed a
+            signals-based approach — watch what happens (GitHub, CI/CD) instead of asking
+            engineers to update tools.
           </>,
           <>
-            Spearheaded the transition to the Martech project, taking ownership of onboarding 6 channels and integrating the Adobe suite of solutions, resulting in a 6% increase in conversion rates through enhanced tracking, retargeting and real-time customer profiling.
+            Designed system architecture integrating GitHub webhooks, an AI summarization
+            layer, and Slack delivery. Built n8n automation workflows for real-time alerts,
+            daily digest generation, and risk detection (stale PRs, stuck tickets).
           </>,
           <>
-            Developed and orchestrated comprehensive strategic and tactical plans for 18 months ensuring seamless execution through effective cross-functional team collaboration.
+            Completed the core task management system, GitHub integration, and AI
+            summarization module. Defined MVP success criteria: 10 active teams and 70%+
+            digest view rate within 4 weeks of launch.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Vachas AI",
+        timeframe: "Jun 2025 - Oct 2025",
+        role: "Co-Founder & Product Strategy",
+        achievements: [
+          <>
+            Built an enterprise voice AI platform automating outbound calls (NPS surveys,
+            feedback collection, follow-ups), replacing expensive and inconsistent manual BPO
+            operations.
           </>,
           <>
-            Responsible for overseeing governance and security throughout the entire digital transformation project.
+            Architected an end-to-end voice AI pipeline — STT (Deepgram), LLM response
+            generation (GPT-4o/3.5), TTS (Cartesia) — achieving sub-1.5s response latency for
+            natural conversations.
+          </>,
+          <>
+            Achieved 94% data extraction accuracy for structured outputs (NPS scores,
+            sentiment, issue categorization) and implemented dynamic LLM routing, reducing API
+            costs by 40% by matching model complexity to call requirements.
+          </>,
+          <>
+            Integrated Exotel (telephony), Pinecone (vector DB for knowledge base), and
+            multiple LLM providers. Built n8n workflows for automated post-call processing —
+            transcription, extraction, and report delivery via Slack.
+          </>,
+          <>
+            Implemented a Voice Activity Detection (VAD) system to handle interruptions and
+            background noise, reducing the false interruption rate from 23% to 8%.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "ICICI Bank",
+        timeframe: "May 2022 - Nov 2024",
+        role: "Senior Technical Manager",
+        achievements: [
+          <>
+            Led website migration and digital transformation across multiple digital channels,
+            coordinating cross-functional teams and presenting progress to the CTO weekly.
+            Promoted to Senior Technical Manager within 2 years.
+          </>,
+          <>
+            Owned end-to-end delivery of the NLI website migration project — requirements
+            gathering, sprint planning, vendor coordination, UAT, and production deployment —
+            ensuring on-time delivery.
+          </>,
+          <>
+            Reduced "Nearby Offers" page load time from 12 seconds to 0.8 seconds (15x
+            improvement) by redesigning the architecture with client-side pagination and
+            viewport-based lazy loading.
+          </>,
+          <>
+            Owned the roadmap and implementation of Adobe Experience Cloud (Analytics, Target)
+            and ran a personalization pilot for the credit card section achieving a 4%
+            conversion improvement.
+          </>,
+          <>
+            Built a Jira workflow from scratch and established team rituals (Monday planning,
+            daily standups, Friday demos) that became templates for other projects.
+          </>,
+          <>
+            Coordinated security audits, penetration testing, and user access governance
+            including SAML integration for enterprise SSO.
           </>,
         ],
         images: [],
@@ -156,16 +235,19 @@ const about: About = {
         role: "Product Management Fellow",
         achievements: [
           <>
-            Recognized by senior product leaders from Mastercard, CRED, PayTM, and Myntra in the cohort.
+            Recognized by senior product leaders from Mastercard, CRED, PayTM, and Myntra in
+            the cohort.
           </>,
           <>
             Authored industry-grade PRDs, vetted and approved by a Senior PM from CRED.
           </>,
           <>
-            Evaluated Rapido's switching issue, securing a top 2 ranking in the entire cohort of more than 80 people.
+            Evaluated Rapido's switching issue, securing a top 2 ranking in a cohort of more
+            than 80 people.
           </>,
           <>
-            Conducted in-depth product teardowns and observations during a rigorous 16-week program.
+            Conducted in-depth product teardowns and observations during a rigorous 16-week
+            program.
           </>,
         ],
         images: [],
@@ -176,33 +258,39 @@ const about: About = {
         role: "Software Engineer",
         achievements: [
           <>
-            Integrated external systems with Salesforce via Mule for customer credit history assessment.
+            Engineered enterprise-scale Salesforce integrations for banking clients, enhancing
+            credit assessment accuracy by integrating with external banking systems (POSIDEX,
+            NSDL, MDM, FICO, CBS) for loan processing.
           </>,
           <>
-            Developed a consent management site for Business and Personal Banking products through SMS and email links.
+            Implemented Aadhaar Vault integration to mask sensitive customer identification
+            numbers and developed a consent management portal using Salesforce custom domains
+            to streamline compliance audits.
           </>,
           <>
-            Created a Global Search feature for cross-sell functionality, enabling case searches by Loan Number and Name.
-          </>,
-          <>
-            Implemented Aadhar Vault Integration to mask Aadhar Numbers using Salesforce's Outbound Messages SOAP API.
+            Architected and deployed a Global Search feature for the entire loan application
+            system, significantly reducing case retrieval time for operational teams.
           </>,
         ],
         images: [],
       },
       {
-        company: "Perpule",
+        company: "Perpule (Acquired by Amazon)",
         timeframe: "May 2019 - Jul 2019",
         role: "Software Development Intern",
         achievements: [
           <>
-            Engineered a payment microservice using Rest APIs, Spring Boot, Cloud SQL, and Google App Engine.
+            Built high-performance payment infrastructure for a retail-tech startup later
+            acquired by Amazon, using REST APIs, Spring Boot, Cloud SQL, and Google App Engine.
           </>,
           <>
-            Designed and developed BO and DAO classes for Amazon Pay, Paytm Auto Debit, PhonePe, and Paytm UPI.
+            Led code refactoring and component optimization resulting in an 83% reduction in
+            payment transaction latency through microservice optimization.
           </>,
           <>
-            Enhanced payment methods, refactored code, and optimized components, reducing transaction latency by 83%.
+            Designed and implemented DAO and BO layers for multiple payment providers including
+            Amazon Pay, Paytm UPI/Auto Debit, and PhonePe, ensuring reliable transaction
+            routing.
           </>,
         ],
         images: [],
@@ -218,7 +306,7 @@ const about: About = {
         description: <>B.Tech, Civil Engineering (2016 - 2020)</>,
       },
       {
-        name: "Sri Chaitanya Educational Institutions, Gudavalli",
+        name: "Sri Chaitanya Educational Institutions, Vijayawada",
         description: <>Intermediate Education - MPC (2014 - 2016)</>,
       },
       {
@@ -232,21 +320,38 @@ const about: About = {
     title: "Skills",
     skills: [
       {
+        title: "AI Product Building",
+        description: (
+          <>Hands-on experience shipping AI-native products end to end.</>
+        ),
+        tags: [
+          { name: "Gen AI" },
+          { name: "Voice AI Pipelines (STT/LLM/TTS)" },
+          { name: "LLM Routing & Cost Optimization" },
+          { name: "RAG & Vector DBs (Pinecone)" },
+          { name: "n8n Automation" },
+          { name: "Claude Code" },
+          { name: "Cursor" },
+          { name: "AI Summarization" },
+          { name: "Prompt Engineering" },
+        ],
+        images: [],
+      },
+      {
         title: "Product Skills",
         description: (
           <>Core product management competencies for building user-centric solutions.</>
         ),
         tags: [
-          { name: "Market Research" },
-          { name: "Structured Thinking" },
-          { name: "Stakeholder Management" },
-          { name: "Data-driven Decision Making" },
-          { name: "Ownership" },
-          { name: "Project Management" },
-          { name: "User Journeys" },
+          { name: "Product Discovery" },
+          { name: "PRD Writing" },
+          { name: "Prioritization" },
+          { name: "User Interviews" },
           { name: "Product Roadmap" },
-          { name: "Root Cause Analysis" },
-          { name: "First Principle Thinking" },
+          { name: "GTM Planning" },
+          { name: "Stakeholder Management" },
+          { name: "Agile Project Management" },
+          { name: "Data-driven Decision Making" },
         ],
         images: [],
       },
@@ -256,12 +361,12 @@ const about: About = {
           <>Technologies and platforms I work with.</>
         ),
         tags: [
+          { name: "SQL" },
           { name: "Adobe Analytics" },
           { name: "Adobe Target" },
-          { name: "API Integration" },
-          { name: "SQL" },
-          { name: "Salesforce" },
           { name: "Adobe Experience Manager" },
+          { name: "Salesforce" },
+          { name: "API Integration" },
         ],
         images: [],
       },
@@ -287,7 +392,7 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about product and tech...",
+  title: "Writing about AI, product, and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -297,60 +402,9 @@ const work: Work = {
   path: "/work",
   label: "Projects",
   title: `Projects – ${person.name}`,
-  description: `Product case studies and projects by ${person.name}`,
+  description: `AI products and case studies by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/work/projects
   // All projects will be listed on the /home and /work routes
 };
 
-const gallery: Gallery = {
-  path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
-  images: [
-    {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-  ],
-};
-
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work };
