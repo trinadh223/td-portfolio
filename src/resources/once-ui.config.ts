@@ -18,7 +18,7 @@ const baseURL: string = "https://trinadhdivvela.com";
 
 const routes: RoutesConfig = {
   "/": true,
-  "/about": true,
+  "/about": false,
   "/work": true,
   "/blog": true,
 };
