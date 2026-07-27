@@ -29,8 +29,8 @@ export const ProjectCardCompact: React.FC<ProjectCardCompactProps> = ({
         <SmartLink href={href} style={{ textDecoration: "none" }}>
             <Column
                 fillWidth
-                gap="12"
-                padding="16"
+                gap="8"
+                padding="12"
                 border="neutral-alpha-weak"
                 radius="l"
                 style={{
@@ -41,7 +41,7 @@ export const ProjectCardCompact: React.FC<ProjectCardCompactProps> = ({
             >
                 {image && (
                     <Media
-                        sizes="(max-width: 768px) 100vw, 400px"
+                        sizes="(max-width: 768px) 100vw, 320px"
                         border="neutral-alpha-weak"
                         cursor="interactive"
                         radius="m"
@@ -50,8 +50,8 @@ export const ProjectCardCompact: React.FC<ProjectCardCompactProps> = ({
                         aspectRatio="16 / 9"
                     />
                 )}
-                <Column gap="8" fillWidth>
-                    <Heading as="h3" variant="heading-strong-m">
+                <Column gap="4" fillWidth>
+                    <Heading as="h3" variant="heading-strong-s">
                         {title}
                     </Heading>
                     <Text

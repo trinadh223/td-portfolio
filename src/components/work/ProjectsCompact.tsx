@@ -19,7 +19,7 @@ export function ProjectsCompact({ range, columns = "2" }: ProjectsCompactProps) 
         : sortedProjects;
 
     return (
-        <Grid columns={columns} s={{ columns: "1" }} gap="16" fillWidth>
+        <Grid columns={columns} m={{ columns: "2" }} s={{ columns: "1" }} gap="12" fillWidth>
             {displayedProjects.map((post) => (
                 <ProjectCardCompact
                     key={post.slug}

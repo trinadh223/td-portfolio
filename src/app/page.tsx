@@ -354,7 +354,7 @@ export default function Home() {
             </SmartLink>
           </Row>
           <Column fillWidth marginBottom="40">
-            <ProjectsCompact range={[1, 4]} columns="2" />
+            <ProjectsCompact range={[1, 3]} columns="3" />
           </Column>
 
           <Line marginBottom="40" />
@@ -370,7 +370,7 @@ export default function Home() {
             </SmartLink>
           </Row>
           <Column fillWidth marginBottom="40">
-            <MediumPosts limit={4} columns="2" />
+            <MediumPosts limit={3} columns="3" />
           </Column>
         </Column>
       </Column>

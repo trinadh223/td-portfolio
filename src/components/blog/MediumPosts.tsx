@@ -73,7 +73,7 @@ export function MediumPosts({ limit = 6, columns = "2" }: MediumPostsProps) {
 
     if (isLoading) {
         return (
-            <Grid columns={columns} s={{ columns: 1 }} gap="16" fillWidth>
+            <Grid columns={columns} m={{ columns: 2 }} s={{ columns: 1 }} gap="12" fillWidth>
                 {Array.from({ length: Math.min(limit, 4) }).map((_, i) => (
                     <Column key={i} gap="8" padding="16" border="neutral-alpha-weak" radius="l">
                         <Skeleton shape="block" />
@@ -91,7 +91,7 @@ export function MediumPosts({ limit = 6, columns = "2" }: MediumPostsProps) {
     }
 
     return (
-        <Grid columns={columns} s={{ columns: 1 }} gap="16" fillWidth>
+        <Grid columns={columns} m={{ columns: 2 }} s={{ columns: 1 }} gap="12" fillWidth>
             {posts.map((post, index) => (
                 <SmartLink
                     key={index}
@@ -99,8 +99,8 @@ export function MediumPosts({ limit = 6, columns = "2" }: MediumPostsProps) {
                     style={{ textDecoration: "none" }}
                 >
                     <Column
-                        gap="12"
-                        padding="16"
+                        gap="8"
+                        padding="12"
                         border="neutral-alpha-weak"
                         radius="l"
                         fillWidth
@@ -112,7 +112,7 @@ export function MediumPosts({ limit = 6, columns = "2" }: MediumPostsProps) {
                     >
                         {post.image && (
                             <Media
-                                sizes="(max-width: 768px) 100vw, 640px"
+                                sizes="(max-width: 768px) 100vw, 320px"
                                 border="neutral-alpha-weak"
                                 cursor="interactive"
                                 radius="m"
@@ -122,11 +122,11 @@ export function MediumPosts({ limit = 6, columns = "2" }: MediumPostsProps) {
                                 unoptimized
                             />
                         )}
-                        <Column gap="8" fillWidth>
+                        <Column gap="4" fillWidth>
                             <Text variant="label-default-s" onBackground="neutral-weak">
                                 {post.pubDate}
                             </Text>
-                            <Text variant="heading-strong-m">{post.title}</Text>
+                            <Text variant="heading-strong-s">{post.title}</Text>
                             <Text
                                 variant="body-default-s"
                                 onBackground="neutral-weak"
