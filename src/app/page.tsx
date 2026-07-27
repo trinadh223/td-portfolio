@@ -54,6 +54,11 @@ export default function Home() {
       items: about.technical.skills.map((skill) => skill.title),
     },
     {
+      title: about.achievements.title,
+      display: about.achievements.display,
+      items: [],
+    },
+    {
       title: "Projects",
       display: true,
       items: [],
@@ -65,7 +70,7 @@ export default function Home() {
     },
   ];
   return (
-    <Column maxWidth="m">
+    <Column maxWidth="m" paddingTop="24" horizontal="center">
       <Schema
         as="webPage"
         baseURL={baseURL}
@@ -91,125 +96,78 @@ export default function Home() {
           <TableOfContents structure={structure} about={about} />
         </Column>
       )}
-      <Row fillWidth s={{ direction: "column"}} horizontal="center">
-        {about.avatar.display && (
-          <Column
-            className={styles.avatar}
-            top="64"
-            fitHeight
-            position="sticky"
-            s={{ position: "relative", style: { top: "auto" } }}
-            xs={{ style: { top: "auto" } }}
-            minWidth="160"
-            paddingX="l"
-            paddingBottom="xl"
-            gap="m"
-            flex={3}
-            horizontal="center"
-          >
+      <Column fillWidth horizontal="center">
+        {/* Compact identity header */}
+        <Row
+          id={about.intro.title}
+          fillWidth
+          gap="24"
+          vertical="center"
+          s={{ direction: "column" }}
+          marginBottom="l"
+        >
+          {about.avatar.display && (
             <Avatar src={person.avatar} size="xl" />
-            <Row gap="8" vertical="center">
-              <Icon onBackground="accent-weak" name="globe" />
-              {person.location}
-            </Row>
-            {person.languages && person.languages.length > 0 && (
-              <Row wrap gap="8">
-                {person.languages.map((language, index) => (
-                  <Tag key={index} size="l">
-                    {language}
-                  </Tag>
-                ))}
-              </Row>
-            )}
-          </Column>
-        )}
-        <Column className={styles.blockAlign} flex={9} maxWidth={40}>
-          <Column
-            id={about.intro.title}
-            fillWidth
-            minHeight="160"
-            vertical="center"
-            marginBottom="32"
-          >
-            {about.calendar.display && (
-              <Row
-                fitWidth
-                border="brand-alpha-medium"
-                background="brand-alpha-weak"
-                radius="full"
-                padding="4"
-                gap="8"
-                marginBottom="m"
-                vertical="center"
-                className={styles.blockAlign}
-                style={{
-                  backdropFilter: "blur(var(--static-space-1))",
-                }}
-              >
-                <Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
-                <Row paddingX="8">Schedule a call</Row>
-                <IconButton
-                  href={about.calendar.link}
-                  data-border="rounded"
-                  variant="secondary"
-                  icon="chevronRight"
-                />
-              </Row>
-            )}
-            <Heading className={styles.textAlign} variant="display-strong-xl">
+          )}
+          <Column flex={1} gap="8" s={{ horizontal: "center", align: "center" }}>
+            <Heading className={styles.textAlign} variant="display-strong-l">
               {person.name}
             </Heading>
             <Text
               className={styles.textAlign}
-              variant="display-default-xs"
+              variant="heading-default-l"
               onBackground="neutral-weak"
             >
               {person.role}
             </Text>
+            <Row gap="8" vertical="center" className={styles.blockAlign}>
+              <Icon onBackground="accent-weak" name="globe" size="s" />
+              <Text variant="body-default-s" onBackground="neutral-weak">
+                {person.location}
+              </Text>
+            </Row>
             {social.length > 0 && (
               <Row
                 className={styles.blockAlign}
-                paddingTop="20"
-                paddingBottom="8"
+                paddingTop="8"
                 gap="8"
                 wrap
-                horizontal="center"
                 fitWidth
                 data-border="rounded"
               >
                 {social
-                      .filter((item) => item.essential)
-                      .map(
-                  (item) =>
-                    item.link && (
-                      <React.Fragment key={item.name}>
-                        <Row s={{ hide: true }}>
-                          <Button
-                            key={item.name}
-                            href={item.link}
-                            prefixIcon={item.icon}
-                            label={item.name}
-                            size="s"
-                            weight="default"
-                            variant="secondary"
-                          />
-                        </Row>
-                        <Row hide s={{ hide: false }}>
-                          <IconButton
-                            size="l"
-                            key={`${item.name}-icon`}
-                            href={item.link}
-                            icon={item.icon}
-                            variant="secondary"
-                          />
-                        </Row>
-                      </React.Fragment>
-                    ),
+                  .filter((item) => item.essential)
+                  .map(
+                    (item) =>
+                      item.link && (
+                        <IconButton
+                          size="m"
+                          key={`${item.name}-icon`}
+                          href={item.link}
+                          icon={item.icon}
+                          variant="secondary"
+                        />
+                      ),
+                  )}
+                {about.calendar.display && (
+                  <Button
+                    href={about.calendar.link}
+                    prefixIcon="calendar"
+                    label="Schedule a call"
+                    size="s"
+                    weight="default"
+                    variant="secondary"
+                    data-border="rounded"
+                  />
                 )}
               </Row>
             )}
           </Column>
+        </Row>
 
+        <Line marginBottom="l" />
+
+        <Column fillWidth>
           {about.intro.display && (
             <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
               {about.intro.description}
@@ -350,6 +308,39 @@ export default function Home() {
             </>
           )}
 
+          {about.achievements.display && (
+            <>
+              <Heading
+                as="h2"
+                id={about.achievements.title}
+                variant="display-strong-s"
+                marginBottom="m"
+              >
+                {about.achievements.title}
+              </Heading>
+              <Column fillWidth gap="16" marginBottom="40">
+                {about.achievements.items.map((item, index) => (
+                  <Row key={`achievement-${index}`} fillWidth gap="12" vertical="start">
+                    <Icon
+                      name={item.icon || "trophy"}
+                      size="s"
+                      onBackground="brand-weak"
+                      marginTop="4"
+                    />
+                    <Column gap="4">
+                      <Text variant="body-default-m">{item.title}</Text>
+                      {item.description && (
+                        <Text variant="body-default-s" onBackground="neutral-weak">
+                          {item.description}
+                        </Text>
+                      )}
+                    </Column>
+                  </Row>
+                ))}
+              </Column>
+            </>
+          )}
+
           <Line marginBottom="40" />
 
           <Row fillWidth horizontal="between" vertical="center" marginBottom="m">
@@ -382,7 +373,7 @@ export default function Home() {
             <MediumPosts limit={4} columns="2" />
           </Column>
         </Column>
-      </Row>
+      </Column>
     </Column>
   );
 }

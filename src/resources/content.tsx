@@ -387,6 +387,32 @@ const about: About = {
       },
     ],
   },
+  achievements: {
+    display: true,
+    title: "Achievements",
+    items: [
+      {
+        title: <>Received the Bravo Team Award at Persistent Systems</>,
+      },
+      {
+        title: <>Ranked among the top 1% of all students in JEE Advanced 2016.</>,
+      },
+      {
+        title: (
+          <>Ranked among the top 0.3% of a million students in JEE Mains Paper-I in 2016.</>
+        ),
+      },
+      {
+        title: <>Secured All India Rank of 549 in JEE Mains Paper-II in 2016.</>,
+      },
+      {
+        title: <>Secured State Rank of 296 in AP EAMCET in 2016.</>,
+      },
+      {
+        title: <>Secured State Rank of 234 in TS EAMCET in 2016.</>,
+      },
+    ],
+  },
 };
 
 const blog: Blog = {

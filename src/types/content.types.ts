@@ -211,6 +211,22 @@ export interface About extends BasePageConfig {
       }>;
     }>;
   };
+  /** Achievements section */
+  achievements: {
+    /** Whether to display achievements section */
+    display: boolean;
+    /** Title for the achievements section */
+    title: string;
+    /** List of achievements */
+    items: Array<{
+      /** Achievement title */
+      title: React.ReactNode;
+      /** Achievement description */
+      description?: React.ReactNode;
+      /** Optional icon for the achievement */
+      icon?: string;
+    }>;
+  };
 }
 
 /**
