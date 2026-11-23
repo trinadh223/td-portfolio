@@ -77,7 +77,7 @@ export default function Home() {
         title={home.title}
         description={home.description}
         path={home.path}
-        image={`/api/og/generate?title=${encodeURIComponent(home.title)}`}
+        image={"/images/og/home.jpg"}
         author={{
           name: person.name,
           url: `${baseURL}${home.path}`,
