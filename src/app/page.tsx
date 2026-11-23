@@ -18,6 +18,8 @@ import { baseURL, home, about, person, social, work, blog } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import { ProjectsCompact } from "@/components/work/ProjectsCompact";
 import { MediumPosts } from "@/components/blog/MediumPosts";
+import { GitStatsSummary, NowCard, SideProjects } from "@/components/home/Sections";
+import { statsCopy } from "@/resources/portfolio";
 import styles from "@/components/about/about.module.scss";
 import React from "react";
 
@@ -56,6 +58,11 @@ export default function Home() {
     {
       title: about.achievements.title,
       display: about.achievements.display,
+      items: [],
+    },
+    {
+      title: statsCopy.title,
+      display: true,
       items: [],
     },
     {
@@ -167,6 +174,10 @@ export default function Home() {
 
         <Line marginBottom="l" />
 
+        <Column fillWidth marginBottom="xl">
+          <NowCard />
+        </Column>
+
         <Column fillWidth>
           {about.intro.display && (
             <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
@@ -182,13 +193,20 @@ export default function Home() {
               <Column fillWidth gap="l" marginBottom="40">
                 {about.work.experiences.map((experience, index) => (
                   <Column key={`${experience.company}-${experience.role}-${index}`} fillWidth>
-                    <Row fillWidth horizontal="between" vertical="end" marginBottom="4">
+                    <Row fillWidth horizontal="between" vertical="start" marginBottom="4">
                       <Text id={experience.company} variant="heading-strong-l">
                         {experience.company}
                       </Text>
-                      <Text variant="heading-default-xs" onBackground="neutral-weak">
-                        {experience.timeframe}
-                      </Text>
+                      <Column horizontal="end" gap="4" s={{ horizontal: "start" }}>
+                        <Text variant="heading-default-xs" onBackground="neutral-weak">
+                          {experience.timeframe}
+                        </Text>
+                        {experience.location && (
+                          <Text variant="body-default-s" onBackground="neutral-weak">
+                            {experience.location}
+                          </Text>
+                        )}
+                      </Column>
                     </Row>
                     <Text variant="body-default-s" onBackground="brand-weak" marginBottom="m">
                       {experience.role}
@@ -343,6 +361,12 @@ export default function Home() {
 
           <Line marginBottom="40" />
 
+          <Column fillWidth marginBottom="40">
+            <GitStatsSummary />
+          </Column>
+
+          <Line marginBottom="40" />
+
           <Row fillWidth horizontal="between" vertical="center" marginBottom="m">
             <Heading as="h2" id="Projects" variant="display-strong-s">
               Projects
@@ -354,7 +378,10 @@ export default function Home() {
             </SmartLink>
           </Row>
           <Column fillWidth marginBottom="40">
-            <ProjectsCompact range={[1, 3]} columns="3" />
+            <ProjectsCompact columns="3" />
+          </Column>
+          <Column fillWidth marginBottom="40">
+            <SideProjects />
           </Column>
 
           <Line marginBottom="40" />

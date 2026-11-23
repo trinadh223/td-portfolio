@@ -150,6 +150,7 @@ export interface About extends BasePageConfig {
       company: string;
       /** Timeframe of employment */
       timeframe: string;
+      location?: string;
       /** Role or job title */
       role: string;
       /** Achievements at the company */

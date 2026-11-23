@@ -5,10 +5,14 @@ import { ProjectCardCompact } from "./ProjectCardCompact";
 interface ProjectsCompactProps {
     range?: [number, number?];
     columns?: "1" | "2" | "3";
+    tag?: string;
 }
 
-export function ProjectsCompact({ range, columns = "2" }: ProjectsCompactProps) {
+export function ProjectsCompact({ range, columns = "2", tag }: ProjectsCompactProps) {
     let allProjects = getPosts(["src", "app", "work", "projects"]);
+    if (tag) {
+        allProjects = allProjects.filter((post) => post.metadata.tag === tag);
+    }
 
     const sortedProjects = allProjects.sort((a, b) => {
         return new Date(b.metadata.publishedAt).getTime() - new Date(a.metadata.publishedAt).getTime();
