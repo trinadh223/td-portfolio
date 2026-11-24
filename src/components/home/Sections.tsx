@@ -7,7 +7,15 @@ import { StatRow } from "@/components/stats/StatRow";
 import { Heatmap } from "@/components/stats/Heatmap";
 import vizStyles from "@/components/stats/stats.module.scss";
 
-function SectionHeading({ id, title, intro }: { id: string; title: string; intro?: string }) {
+function SectionHeading({
+  id,
+  title,
+  intro,
+}: {
+  id: string;
+  title: string;
+  intro?: string;
+}) {
   return (
     <Column gap="8" marginBottom="24" id={id} className={styles.section}>
       <Heading as="h2" variant="display-strong-s">
@@ -65,22 +73,30 @@ export function GitStatsSummary() {
 export function NowCard() {
   const [site, app] = now.links;
   return (
-    <section className={styles.banner} id={now.label} aria-label={now.label}>
-      <div className={styles.bannerBody}>
-        <div className={styles.bannerTop}>
-          <Image src={now.logo} alt="" width={36} height={36} className={styles.bannerLogo} />
-          <span className={styles.bannerLead}>{now.lead}</span>
-        </div>
-        <a href={site.href} className={styles.bannerText}>
-          {now.text}
-        </a>
-        <div className={styles.bannerLinks}>
-          <a href={site.href} className={styles.bannerPrimary}>
-            {site.label}
+    <section id={now.label} aria-label={now.lead} className={styles.nowSection}>
+      <Heading as="h2" variant="heading-strong-l">
+        {now.lead}
+      </Heading>
+      <div className={styles.banner}>
+        <div className={styles.bannerBody}>
+          <Image
+            src={now.logo}
+            alt=""
+            width={36}
+            height={36}
+            className={styles.bannerLogo}
+          />
+          <a href={site.href} className={styles.bannerText}>
+            {now.text}
           </a>
-          <a href={app.href} className={styles.bannerSecondary}>
-            {app.label}
-          </a>
+          <div className={styles.bannerLinks}>
+            <a href={site.href} className={styles.bannerPrimary}>
+              {site.label}
+            </a>
+            <a href={app.href} className={styles.bannerSecondary}>
+              {app.label}
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -96,7 +112,9 @@ export function SideProjects() {
           <>
             <div className={styles.cardName}>{p.name}</div>
             <span className={styles.cardSummary}>{p.summary}</span>
-            {p.href && <span className={styles.link}>{explorations.viewRepo}</span>}
+            {p.href && (
+              <span className={styles.link}>{explorations.viewRepo}</span>
+            )}
           </>
         );
         return p.href ? (

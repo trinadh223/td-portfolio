@@ -115,16 +115,10 @@
   }
 }
 
-.bannerTop {
+.nowSection {
   display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.bannerLead {
-  font-size: 1rem;
-  font-weight: 500;
-  color: rgba(243, 248, 241, 0.82);
+  flex-direction: column;
+  gap: 16px;
 }
 
 .bannerLogo {
