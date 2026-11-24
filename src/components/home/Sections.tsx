@@ -67,7 +67,10 @@ export function NowCard() {
   return (
     <section className={styles.banner} id={now.label} aria-label={now.label}>
       <div className={styles.bannerBody}>
-        <Image src={now.logo} alt="" width={36} height={36} className={styles.bannerLogo} />
+        <div className={styles.bannerTop}>
+          <Image src={now.logo} alt="" width={36} height={36} className={styles.bannerLogo} />
+          <span className={styles.bannerLead}>{now.lead}</span>
+        </div>
         <a href={site.href} className={styles.bannerText}>
           {now.text}
         </a>

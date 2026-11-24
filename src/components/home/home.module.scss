@@ -115,6 +115,18 @@
   }
 }
 
+.bannerTop {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bannerLead {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(243, 248, 241, 0.82);
+}
+
 .bannerLogo {
   border-radius: 9px;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
