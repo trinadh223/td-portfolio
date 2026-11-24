@@ -140,16 +140,6 @@ const about: About = {
         images: [],
       },
       {
-        company: "Glimpse HQ",
-        timeframe: "Aug 2026",
-        location: "Bengaluru, India",
-        role: "Founder",
-        achievements: [
-          <>Explored an end-to-end B2B SaaS AI video marketing platform for performance teams (not launched). Mapped workflows, built a 10-milestone prototype, published glimpse-hq.com and made brand videos.</>,
-        ],
-        images: [],
-      },
-      {
         company: "Omni AI",
         timeframe: "Nov 2025 - May 2026",
         location: "Bengaluru, India",
