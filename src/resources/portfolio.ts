@@ -25,21 +25,11 @@ export type SideProject = {
 
 export const now = {
   label: "Now",
-  name: "Fluxgo",
   logo: "/images/logos/fluxgo.png",
-  image: "/images/projects/fluxgo-card.jpg",
-  imageAlt: "A Fluxgo shared cab ride card",
-  title: "Fluxgo: reliable intercity carpools and shared cabs",
-  body: "Solving intercity ride reliability in India, live on the App Store, Google Play and web with 140+ members and 50+ rides shared.",
-  stats: [
-    { value: "140+", label: "Verified members" },
-    { value: "50+", label: "Rides shared" },
-  ],
+  text: "Building Fluxgo: Intercity mobility in India",
   links: [
     { label: "Website", href: "https://www.fluxgo.in" },
-    { label: "App Store", href: "https://apps.apple.com/in/app/fluxgo-intercity-carpooling/id6814678664" },
-    { label: "Google Play", href: "https://play.google.com/store/apps/details?id=in.fluxgo.app" },
-    { label: "Web app", href: "https://app.fluxgo.in" },
+    { label: "Members app", href: "https://app.fluxgo.in" },
   ],
 };
 

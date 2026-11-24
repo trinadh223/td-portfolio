@@ -87,6 +87,42 @@
   }
 }
 
+// Now banner: one row, logo, label, text and 2 links.
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 14px 20px;
+  border: 1px solid var(--neutral-alpha-medium);
+  border-radius: var(--radius-l);
+  background: var(--surface-background);
+}
+
+.bannerLabel {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--brand-on-background-weak);
+}
+
+.bannerText {
+  flex: 1 1 260px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--neutral-on-background-strong);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+.bannerLinks {
+  display: flex;
+  gap: 20px;
+}
+
 .brandRow {
   display: flex;
   align-items: center;
