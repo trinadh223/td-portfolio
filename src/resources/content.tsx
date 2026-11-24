@@ -116,15 +116,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        AI-focused Product Manager with 5+ years of experience spanning enterprise digital
-        transformation at ICICI Bank and hands-on AI product building. Shipped a voice AI
-        platform achieving sub-1.5s latency and 94% data extraction accuracy. Led multiple
-        cross-functional teams to deliver a bank-wide website migration on schedule, then
-        drove Martech integration resulting in a 6% conversion lift.
+        Product manager with 6 years across enterprise digital products and AI-native startups. Founder and product lead of Fluxgo, solving intercity mobility in India with reliable carpools and shared cabs.
         <br />
         <br />
-        Most recently built an AI-native execution intelligence tool that gives engineering
-        teams real-time visibility into work progress. Graduated from IIT Kharagpur.
+        Co-founded Vachas AI and Omni AI, spanning strategy to MVP execution. At ICICI Bank, led web transformation, with a 15x discovery improvement and a personalization pilot that lifted conversion 4%. Earlier, software engineer at Persistent Systems and Perpule (acquired by Amazon). IIT Kharagpur.
       </>
     ),
   },
@@ -133,9 +128,22 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Fluxgo",
+        timeframe: "Sep 2026 - Present",
+        location: "Bengaluru, India",
+        role: "Founder & Product Lead",
+        achievements: [
+          <>Founded Fluxgo (fluxgo.in) to make intercity carpools and shared cabs reliable in India, live on iOS, Android, web and a cab partner app with 140+ members and 50+ rides shared.</>,
+          <>Shipped trust and safety flows: work email badges, vehicle checks, visible no-show records, women co-traveller option, and KYC cab onboarding.</>,
+          <>Designed an invisible AI engine starting with ride reliability: AI suggests while the product decides, rolling out in stages only after accuracy is proven.</>,
+        ],
+        images: [],
+      },
+      {
         company: "Omni AI",
-        timeframe: "Nov 2025 - Apr 2026",
-        role: "Co-Founder & Product Lead",
+        timeframe: "Nov 2025 - May 2026",
+        location: "Bengaluru, India",
+        role: "Founder & Product Lead",
         achievements: [
           <>
             Built an AI-native execution intelligence platform giving engineering teams
@@ -164,6 +172,7 @@ const about: About = {
       {
         company: "Vachas AI",
         timeframe: "Jun 2025 - Oct 2025",
+        location: "Bengaluru, India",
         role: "Co-Founder & Product Strategy",
         achievements: [
           <>
@@ -196,6 +205,7 @@ const about: About = {
       {
         company: "ICICI Bank",
         timeframe: "May 2022 - Nov 2024",
+        location: "Hyderabad, India",
         role: "Senior Technical Manager",
         achievements: [
           <>
@@ -230,32 +240,10 @@ const about: About = {
         images: [],
       },
       {
-        company: "Upraised",
-        timeframe: "Nov 2022 - Mar 2023",
-        role: "Product Management Fellow",
-        achievements: [
-          <>
-            Recognized by senior product leaders from Mastercard, CRED, PayTM, and Myntra in
-            the cohort.
-          </>,
-          <>
-            Authored industry-grade PRDs, vetted and approved by a Senior PM from CRED.
-          </>,
-          <>
-            Evaluated Rapido's switching issue, securing a top 2 ranking in a cohort of more
-            than 80 people.
-          </>,
-          <>
-            Conducted in-depth product teardowns and observations during a rigorous 16-week
-            program.
-          </>,
-        ],
-        images: [],
-      },
-      {
         company: "Persistent Systems",
         timeframe: "Oct 2020 - May 2022",
-        role: "Software Engineer",
+        location: "Pune, India (Remote)",
+        role: "Software Development Engineer",
         achievements: [
           <>
             Engineered enterprise-scale Salesforce integrations for banking clients, enhancing
@@ -277,6 +265,7 @@ const about: About = {
       {
         company: "Perpule (Acquired by Amazon)",
         timeframe: "May 2019 - Jul 2019",
+        location: "Bengaluru, India",
         role: "Software Development Intern",
         achievements: [
           <>
@@ -391,6 +380,9 @@ const about: About = {
     display: true,
     title: "Achievements",
     items: [
+      {
+        title: <>Launched Fluxgo on the App Store and Google Play as a solo builder in 2026.</>,
+      },
       {
         title: <>Received the Bravo Team Award at Persistent Systems</>,
       },

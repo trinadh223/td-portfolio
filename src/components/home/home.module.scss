@@ -1,0 +1,304 @@
+// One left edge for all text. No decoration: no pills, glows, accent bars or icon boxes.
+// Cards only where the content is a thing you can open (featured work).
+
+.section {
+  scroll-margin-top: 80px;
+}
+
+.eyebrow {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--brand-on-background-weak);
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: var(--neutral-on-background-weak);
+}
+
+.link {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--brand-on-background-weak);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+// Feature block: text on the left, a real product screen on the right.
+.feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr);
+  min-height: 360px;
+  border: 1px solid var(--neutral-alpha-medium);
+  border-radius: var(--radius-xl);
+  background: var(--surface-background);
+  overflow: hidden;
+
+  @media (max-width: 860px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.featureSmall {
+  min-height: 300px;
+}
+
+.featureBody {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  min-width: 0;
+
+  @media (max-width: 560px) {
+    padding: 20px;
+  }
+}
+
+.shot {
+  position: relative;
+  display: block;
+  min-height: 240px;
+  border-left: 1px solid var(--neutral-alpha-weak);
+  overflow: hidden;
+
+  @media (max-width: 860px) {
+    order: -1;
+    aspect-ratio: 2 / 1;
+    border-left: 0;
+    border-bottom: 1px solid var(--neutral-alpha-weak);
+  }
+}
+
+.shotFluxgo {
+  background: #163322;
+}
+
+// The ride card image is square, so the Now card gives it a square column.
+.featureNow {
+  grid-template-columns: minmax(0, 1fr) 380px;
+
+  @media (max-width: 860px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+// Now banner in Fluxgo brand colors (#1B412A / #2F6B46, light green accent).
+// Same in light and dark mode: it is a brand surface.
+.banner {
+  --fx-deep: #1b412a;
+  --fx-brand: #2f6b46;
+  --fx-accent: #b8e3a6;
+  --fx-ink: #f3f8f1;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(120deg, var(--fx-deep) 0%, var(--fx-brand) 100%);
+  color: var(--fx-ink);
+}
+
+.bannerBody {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 28px 32px;
+  max-width: 620px;
+
+  @media (max-width: 560px) {
+    padding: 22px 20px;
+  }
+}
+
+.nowSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bannerLogo {
+  border-radius: 9px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.bannerText {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--fx-ink) !important;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 1.375rem;
+  }
+}
+
+.bannerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.bannerPrimary,
+.bannerSecondary {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 18px;
+  border-radius: 999px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+
+  &:focus-visible {
+    outline: 2px solid var(--fx-accent);
+    outline-offset: 2px;
+  }
+}
+
+.bannerPrimary {
+  background: var(--fx-accent);
+  color: var(--fx-deep) !important;
+
+  &:hover {
+    background: #cdeebf;
+  }
+}
+
+.bannerSecondary {
+  border: 1px solid rgba(243, 248, 241, 0.4);
+  color: var(--fx-ink) !important;
+
+  &:hover {
+    background: rgba(243, 248, 241, 0.1);
+  }
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+
+  @media (max-width: 720px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.stack {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--neutral-on-background-weak);
+
+  span {
+    color: var(--neutral-on-background-strong);
+    font-weight: 500;
+  }
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 36px;
+  margin-top: 4px;
+}
+
+.factValue {
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+  color: var(--neutral-on-background-strong);
+}
+
+.factLabel {
+  font-size: 0.875rem;
+  color: var(--neutral-on-background-weak);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 20px;
+  margin-top: 8px;
+}
+
+// Featured work: the only cards, because each one opens a case study.
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+
+  @media (max-width: 960px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--neutral-alpha-medium);
+  border-radius: var(--radius-l);
+  background: var(--surface-background);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--neutral-alpha-strong);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--brand-solid-strong);
+    outline-offset: 2px;
+  }
+}
+
+.cardName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--neutral-on-background-strong);
+}
+
+.cardSummary {
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--neutral-on-background-weak);
+  flex: 1;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

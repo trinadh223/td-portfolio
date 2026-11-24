@@ -1,0 +1,230 @@
+// Chart tokens. Light is the default; dark has its own validated steps
+// (dataviz reference palette, checked with validate_palette.js).
+.viz {
+  --viz-series-1: #2a78d6;
+  --viz-series-2: #eb6834;
+  --viz-series-3: #1baf7a;
+  --viz-series-4: #eda100;
+  --viz-series-5: #e87ba4;
+  --viz-seq-0: var(--neutral-alpha-weak);
+  --viz-seq-1: #b7d3f6;
+  --viz-seq-2: #6da7ec;
+  --viz-seq-3: #2a78d6;
+  --viz-seq-4: #184f95;
+  --viz-grid: var(--neutral-alpha-weak);
+  --viz-ink: var(--neutral-on-background-strong);
+  --viz-ink-weak: var(--neutral-on-background-weak);
+  --viz-surface: var(--page-background);
+  --viz-tooltip-bg: #ffffff;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+:global(:root[data-theme="dark"]) .viz {
+  --viz-series-1: #3987e5;
+  --viz-series-2: #d95926;
+  --viz-series-3: #199e70;
+  --viz-series-4: #c98500;
+  --viz-series-5: #d55181;
+  --viz-tooltip-bg: #1f1f1e;
+  --viz-seq-1: #104281;
+  --viz-seq-2: #1c5cab;
+  --viz-seq-3: #3987e5;
+  --viz-seq-4: #86b6ef;
+}
+
+.card {
+  border: 1px solid var(--neutral-alpha-weak);
+  border-radius: var(--radius-l);
+  padding: var(--static-space-20);
+  background: var(--surface-background);
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--static-space-12);
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.statValue {
+  font-variant-numeric: tabular-nums;
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: 600;
+  color: var(--viz-ink);
+  letter-spacing: -0.02em;
+}
+
+.statLabel {
+  color: var(--viz-ink-weak);
+  font-size: 0.8125rem;
+  margin-top: 4px;
+}
+
+// Scrolls inside its own box on small screens; starts at the newest weeks.
+.heatScroll {
+  max-width: 100%;
+  overflow-x: auto;
+  direction: rtl;
+  scrollbar-width: thin;
+  padding-bottom: 4px;
+
+  > * {
+    direction: ltr;
+  }
+}
+
+.heatCell {
+  transition: stroke 0.1s ease;
+  stroke: transparent;
+  stroke-width: 1.5;
+  cursor: default;
+
+  &:hover,
+  &:focus-visible {
+    stroke: var(--viz-ink);
+    outline: none;
+  }
+}
+
+.axisText {
+  fill: var(--viz-ink-weak);
+  font-size: 10px;
+  font-family: var(--font-label);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  align-items: center;
+  font-size: 0.8125rem;
+  color: var(--viz-ink-weak);
+}
+
+.swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  margin-right: 6px;
+  vertical-align: -1px;
+}
+
+.lineSwatch {
+  display: inline-block;
+  width: 14px;
+  height: 2px;
+  border-radius: 2px;
+  margin-right: 6px;
+  vertical-align: 3px;
+  background: var(--viz-ink);
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  min-width: 140px;
+  padding: 8px 10px;
+  border-radius: var(--radius-m);
+  background: var(--viz-tooltip-bg);
+  border: 1px solid var(--neutral-alpha-medium);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--viz-ink);
+  white-space: nowrap;
+}
+
+.tooltipMuted {
+  color: var(--viz-ink-weak);
+}
+
+.barTrack {
+  position: relative;
+  height: 10px;
+  border-radius: 4px;
+  background: var(--neutral-alpha-weak);
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 4px;
+  transform-origin: left center;
+}
+
+.stack {
+  display: flex;
+  gap: 2px;
+  height: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stackSeg {
+  height: 100%;
+  min-width: 2px;
+  transform-origin: left center;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+
+  th,
+  td {
+    text-align: left;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--neutral-alpha-weak);
+  }
+
+  th {
+    color: var(--viz-ink-weak);
+    font-weight: 500;
+  }
+
+  td:not(:first-child),
+  th:not(:first-child) {
+    text-align: right;
+  }
+}
+
+.details summary {
+  cursor: pointer;
+  color: var(--viz-ink-weak);
+  font-size: 0.8125rem;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+// Keeps chart labels readable on phones; the chart scrolls inside its card.
+.chartScroll {
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.chartInner {
+  position: relative;
+  min-width: 560px;
+}

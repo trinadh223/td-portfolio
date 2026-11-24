@@ -1,0 +1,50 @@
+---
+title: "Vachas AI: outbound voice AI for surveys and follow-ups"
+publishedAt: "2025-10-31"
+summary: "I co-founded Vachas AI, a voice AI platform for outbound NPS surveys and follow-ups. Under 1.5 s latency, 94% extraction accuracy and 40% lower API cost."
+tag: "case-study"
+images:
+  - "/images/projects/vachas-site.jpg"
+team:
+  - name: "Trinadh Divvela"
+    role: "Co-Founder & Product Strategy"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/trinadhdivvela"
+---
+
+## Context
+
+From June to October 2025, I co-founded Vachas AI and led product strategy. We built a production voice AI platform for teams running outbound NPS surveys, customer feedback collection and follow-ups over live phone lines.
+
+## Problem
+
+Running outbound feedback calls is much harder than running a text chat. Callers notice delays immediately, and a call breaks down when an agent speaks over them, pauses too long or loses context. Even after a call succeeds, raw audio and transcripts create manual review work unless answers become structured reports. At the same time, sending every conversation turn to the most expensive model breaks unit economics.
+
+## Users
+
+- Customer feedback teams who want completed NPS surveys turned automatically into structured, usable reports.
+- Outbound call recipients who expect natural pacing, fast replies and calm turn-taking on live phone calls.
+
+## Key insight
+
+In voice AI, conversational feel, post-call utility and unit economics are inseparable product problems. Improving latency, turn-taking, structured output and cost together matters more than tuning prompts alone.
+
+## Decisions and trade-offs
+
+- Prioritized response speed and turn-taking controls over heavy prompt edits, because pauses and false interruptions break the call before callers finish.
+- Built dynamic model routing across multiple models instead of using the largest model on every turn, because unit economics break if simple turns carry peak API cost.
+- Included automated post-call extraction and reporting in the core product, because delivering raw recordings and transcripts still leaves teams with manual work.
+- Paired quality metrics with cost metrics from the start, because improving accuracy without tracking API spend creates an unsustainable product.
+
+## Metrics
+
+- Under **1.5 s** response latency on live calls
+- False interruptions cut from **23%** to **8%**
+- **94%** structured-data extraction accuracy
+- **40%** lower API cost through dynamic model routing
+
+## What I learned
+
+- Latency and turn-taking are the product in voice AI, shaping call completion more than prompt wording alone.
+- Model routing is a product trade-off that improves unit economics while preserving answer quality.
+- The workflow after the call matters as much as the call itself, since structured reports are what teams actually use.

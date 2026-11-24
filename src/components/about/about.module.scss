@@ -17,3 +17,10 @@
         align-self: center;
     }
 }
+// The rail needs about 180px left of the 1024px content column.
+// Below 1400px wide there is not enough space, so hide it.
+@media (max-width: 1399px) {
+  .rail {
+    display: none !important;
+  }
+}
