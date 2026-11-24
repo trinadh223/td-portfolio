@@ -174,16 +174,16 @@ export default function Home() {
 
         <Line marginBottom="l" />
 
-        <Column fillWidth marginBottom="xl">
-          <NowCard />
-        </Column>
-
         <Column fillWidth>
           {about.intro.display && (
             <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
               {about.intro.description}
             </Column>
           )}
+
+          <Column fillWidth marginBottom="xl">
+            <NowCard />
+          </Column>
 
           {about.work.display && (
             <>
