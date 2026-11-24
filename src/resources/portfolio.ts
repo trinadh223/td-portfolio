@@ -26,7 +26,7 @@ export type SideProject = {
 export const now = {
   label: "Now",
   logo: "/images/logos/fluxgo.png",
-  lead: "Currently building as founder",
+  lead: "What I'm building",
   text: "Fluxgo: Intercity mobility in India",
   links: [
     { label: "Website", href: "https://www.fluxgo.in" },

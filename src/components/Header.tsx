@@ -19,15 +19,19 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" })
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
-      const options: Intl.DateTimeFormatOptions = {
+      // 12-hour time with AM/PM, then the short zone name (for example "8:06:46 AM IST").
+      const time = new Intl.DateTimeFormat("en-US", {
         timeZone,
-        hour: "2-digit",
+        hour: "numeric",
         minute: "2-digit",
         second: "2-digit",
-        hour12: false,
-      };
-      const timeString = new Intl.DateTimeFormat(locale, options).format(now);
-      setCurrentTime(timeString);
+        hour12: true,
+      }).format(now);
+      const zone =
+        new Intl.DateTimeFormat("en-IN", { timeZone, timeZoneName: "short" })
+          .formatToParts(now)
+          .find((p) => p.type === "timeZoneName")?.value ?? "";
+      setCurrentTime(zone ? `${time} ${zone}` : time);
     };
 
     updateTime();
