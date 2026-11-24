@@ -63,20 +63,31 @@ export function GitStatsSummary() {
 }
 
 export function NowCard() {
+  const [site, app] = now.links;
   return (
     <section className={styles.banner} id={now.label} aria-label={now.label}>
-      <Image src={now.logo} alt="" width={28} height={28} className={styles.logo} />
-      <span className={styles.bannerLabel}>{now.label}</span>
-      <a href={now.links[0].href} className={styles.bannerText}>
-        {now.text}
-      </a>
-      <span className={styles.bannerLinks}>
-        {now.links.map((l) => (
-          <a key={l.href} href={l.href} className={styles.link}>
-            {l.label}
+      <svg className={styles.bannerRoute} viewBox="0 0 400 160" aria-hidden="true">
+        <path d="M24 128 C 120 128, 140 40, 230 52 S 330 110, 376 30" />
+        <circle cx="24" cy="128" r="6" />
+        <circle cx="376" cy="30" r="6" />
+      </svg>
+      <div className={styles.bannerBody}>
+        <div className={styles.bannerTop}>
+          <Image src={now.logo} alt="" width={36} height={36} className={styles.bannerLogo} />
+          <span className={styles.bannerLabel}>{now.label}</span>
+        </div>
+        <a href={site.href} className={styles.bannerText}>
+          {now.text}
+        </a>
+        <div className={styles.bannerLinks}>
+          <a href={site.href} className={styles.bannerPrimary}>
+            {site.label}
           </a>
-        ))}
-      </span>
+          <a href={app.href} className={styles.bannerSecondary}>
+            {app.label}
+          </a>
+        </div>
+      </div>
     </section>
   );
 }

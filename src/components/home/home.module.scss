@@ -87,40 +87,143 @@
   }
 }
 
-// Now banner: one row, logo, label, text and 2 links.
+// Now banner in Fluxgo brand colors (#1B412A / #2F6B46, light green accent).
+// Same in light and dark mode: it is a brand surface.
 .banner {
+  --fx-deep: #1b412a;
+  --fx-brand: #2f6b46;
+  --fx-accent: #b8e3a6;
+  --fx-ink: #f3f8f1;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(120deg, var(--fx-deep) 0%, var(--fx-brand) 100%);
+  color: var(--fx-ink);
+}
+
+.bannerRoute {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  width: 360px;
+  height: auto;
+  transform: translateY(-50%);
+  pointer-events: none;
+
+  path {
+    fill: none;
+    stroke: var(--fx-accent);
+    stroke-width: 3;
+    stroke-linecap: round;
+    opacity: 0.55;
+  }
+
+  circle {
+    fill: var(--fx-deep);
+    stroke: var(--fx-accent);
+    stroke-width: 3;
+  }
+
+  @media (max-width: 720px) {
+    width: 220px;
+    right: -40px;
+    opacity: 0.35;
+  }
+}
+
+.bannerBody {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 28px 32px;
+  max-width: 620px;
+
+  @media (max-width: 560px) {
+    padding: 22px 20px;
+  }
+}
+
+.bannerTop {
+  display: flex;
   align-items: center;
-  gap: 8px 14px;
-  padding: 14px 20px;
-  border: 1px solid var(--neutral-alpha-medium);
-  border-radius: var(--radius-l);
-  background: var(--surface-background);
+  gap: 10px;
+}
+
+.bannerLogo {
+  border-radius: 9px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
 }
 
 .bannerLabel {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--brand-on-background-weak);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fx-accent);
 }
 
 .bannerText {
-  flex: 1 1 260px;
-  font-size: 1rem;
+  font-size: 1.75rem;
   font-weight: 600;
-  color: var(--neutral-on-background-strong);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--fx-ink) !important;
   text-decoration: none;
 
   &:hover {
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 1.375rem;
   }
 }
 
 .bannerLinks {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.bannerPrimary,
+.bannerSecondary {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 18px;
+  border-radius: 999px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+
+  &:focus-visible {
+    outline: 2px solid var(--fx-accent);
+    outline-offset: 2px;
+  }
+}
+
+.bannerPrimary {
+  background: var(--fx-accent);
+  color: var(--fx-deep) !important;
+
+  &:hover {
+    background: #cdeebf;
+  }
+}
+
+.bannerSecondary {
+  border: 1px solid rgba(243, 248, 241, 0.4);
+  color: var(--fx-ink) !important;
+
+  &:hover {
+    background: rgba(243, 248, 241, 0.1);
+  }
 }
 
 .brandRow {
