@@ -29,7 +29,7 @@ export const now = {
   text: "Building Fluxgo: Intercity mobility in India",
   links: [
     { label: "Website", href: "https://www.fluxgo.in" },
-    { label: "Members app", href: "https://app.fluxgo.in" },
+    { label: "Open app", href: "https://app.fluxgo.in" },
   ],
 };
 

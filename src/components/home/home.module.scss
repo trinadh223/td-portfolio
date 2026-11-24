@@ -101,36 +101,6 @@
   color: var(--fx-ink);
 }
 
-.bannerRoute {
-  position: absolute;
-  right: 24px;
-  top: 50%;
-  width: 360px;
-  height: auto;
-  transform: translateY(-50%);
-  pointer-events: none;
-
-  path {
-    fill: none;
-    stroke: var(--fx-accent);
-    stroke-width: 3;
-    stroke-linecap: round;
-    opacity: 0.55;
-  }
-
-  circle {
-    fill: var(--fx-deep);
-    stroke: var(--fx-accent);
-    stroke-width: 3;
-  }
-
-  @media (max-width: 720px) {
-    width: 220px;
-    right: -40px;
-    opacity: 0.35;
-  }
-}
-
 .bannerBody {
   position: relative;
   display: flex;
@@ -145,23 +115,9 @@
   }
 }
 
-.bannerTop {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .bannerLogo {
   border-radius: 9px;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
-}
-
-.bannerLabel {
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--fx-accent);
 }
 
 .bannerText {
