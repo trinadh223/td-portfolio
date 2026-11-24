@@ -38,6 +38,8 @@ jobs:
       - name: Refresh Git stats
         env:
           GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GH_STATS_TOKEN_FLUXGO: ${{ secrets.GH_STATS_TOKEN_FLUXGO }}
+          GH_STATS_TOKEN_OMNI: ${{ secrets.GH_STATS_TOKEN_OMNI }}
         run: node scripts/fetch-git-stats.mjs
 
       - name: Build

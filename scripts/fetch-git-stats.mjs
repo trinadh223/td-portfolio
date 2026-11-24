@@ -1,15 +1,25 @@
 #!/usr/bin/env node
 // Builds public/data/git-stats.json from the GitHub API.
 // Writes totals only: no code, commit messages, branch names or private repo names.
-// Needs GH_STATS_TOKEN (read-only). If the token is missing or a call fails,
-// the script keeps the last good file and exits 0 so the site build still runs.
+// A fine-grained token reads the private repos of one owner only, so each owner
+// has its own read-only token:
+//   GH_STATS_TOKEN         trinadh223 repos and the contribution calendar
+//   GH_STATS_TOKEN_FLUXGO  fluxgo-org repos
+//   GH_STATS_TOKEN_OMNI    omni-ai-org repos
+// If a token is missing or any repo cannot be read, the script keeps the last
+// good file and exits 0 so the site build still runs.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 
 const OUT = path.join(process.cwd(), "public", "data", "git-stats.json");
 const LOGIN = "trinadh223";
-const TOKEN = process.env.GH_STATS_TOKEN || process.env.GITHUB_TOKEN || "";
+const TOKEN = process.env.GH_STATS_TOKEN || "";
+const OWNER_TOKENS = {
+  trinadh223: TOKEN,
+  "fluxgo-org": process.env.GH_STATS_TOKEN_FLUXGO || "",
+  "omni-ai-org": process.env.GH_STATS_TOKEN_OMNI || "",
+};
 
 // label: what the site shows. Private repos are shown by product name only.
 const REPOS = [
@@ -41,11 +51,11 @@ const MILESTONES = [
 
 const IGNORED_LANGUAGES = new Set(["Dockerfile", "Makefile", "Procfile", "Batchfile"]);
 
-async function gql(query, variables = {}) {
+async function gql(query, variables = {}, token = TOKEN) {
   const res = await fetch("https://api.github.com/graphql", {
     method: "POST",
     headers: {
-      Authorization: `bearer ${TOKEN}`,
+      Authorization: `bearer ${token}`,
       "Content-Type": "application/json",
       "User-Agent": "td-portfolio-stats",
     },
@@ -116,6 +126,7 @@ async function fetchRepo({ repo }, since) {
         }
       }`,
       { owner, name, since, cursor },
+      OWNER_TOKENS[owner],
     );
     const r = data.repository;
     if (!r) return null;
@@ -143,6 +154,7 @@ async function fetchMergedDates(owner, name, since) {
         }
       }`,
       { owner, name, cursor },
+      OWNER_TOKENS[owner],
     );
     const prs = data.repository?.pullRequests;
     if (!prs) break;
@@ -154,8 +166,9 @@ async function fetchMergedDates(owner, name, since) {
 }
 
 async function main() {
-  if (!TOKEN) {
-    console.warn("git-stats: no GH_STATS_TOKEN; keeping the existing file.");
+  const missing = Object.entries(OWNER_TOKENS).filter(([, t]) => !t).map(([o]) => o);
+  if (missing.length) {
+    console.warn(`git-stats: no token for ${missing.join(", ")}; keeping the existing file.`);
     return;
   }
 
@@ -209,7 +222,8 @@ async function main() {
     }
   }
 
-  if (reposRead === 0) throw new Error("could not read any repository");
+  // Partial data would lower the totals, so keep the last good file instead.
+  if (reposRead < REPOS.length) throw new Error(`read ${reposRead}/${REPOS.length} repositories`);
 
   const totalBytes = [...languageBytes.values()].reduce((a, b) => a + b, 0);
   const sortedLangs = [...languageBytes.entries()].sort((a, b) => b[1] - a[1]);
