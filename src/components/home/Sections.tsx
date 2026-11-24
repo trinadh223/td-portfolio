@@ -1,4 +1,4 @@
-import { Column, Heading, Row, SmartLink, Text } from "@once-ui-system/core";
+import { Column, Heading, Text } from "@once-ui-system/core";
 import Image from "next/image";
 import styles from "./home.module.scss";
 import { explorations, now, statsCopy } from "@/resources/portfolio";
@@ -60,11 +60,6 @@ export function GitStatsSummary() {
             legendMore={statsCopy.legendMore}
           />
         </div>
-        <Row horizontal="end">
-          <SmartLink href="/stats">
-            <span className={styles.link}>{statsCopy.viewAll}</span>
-          </SmartLink>
-        </Row>
       </Column>
     </>
   );

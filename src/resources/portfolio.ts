@@ -75,16 +75,9 @@ export const statsCopy = {
   activeDays: "Active days",
   longestStreak: "Longest streak",
   heatmapTitle: "Daily activity",
-  weeklyTitle: "Weekly commits and pull requests",
-  prsByProductTitle: "Merged pull requests by product",
-  languagesTitle: "Languages",
-  viewAll: "View full stats",
   error: "Could not load stats right now. Try again in a bit.",
   legendLess: "Less",
   legendMore: "More",
-  pageTitle: "Git activity and build stats",
-  pageDescription:
-    "Daily heatmap, weekly commits, merged PRs, and language split across Fluxgo, Glimpse HQ, Omni AI, Vachas AI, and side projects.",
 };
 
 export const explorations = {
